@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sổ tay triển khai năm học 2026–2027 · Chuyên đề mầm non</title>
+<meta name="description" content="Phương án, kế hoạch và kịch bản điều hành hội nghị chuyên môn mầm non năm học 2026-2027, cập nhật theo văn bản mới nhất của Bộ GD&ĐT và tỉnh Nghệ An.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📘</text></svg>">
+<style>
+  /* ---- UTM Avo: 4 kiểu, dùng cho toàn bộ trang ---- */
+  @font-face{
+    font-family:"UTM Avo";
+    src:url("fonts/UTMAvo-Regular.ttf") format("truetype");
+    font-weight:400; font-style:normal; font-display:swap;
+  }
+  @font-face{
+    font-family:"UTM Avo";
+    src:url("fonts/UTMAvo-Italic.ttf") format("truetype");
+    font-weight:400; font-style:italic; font-display:swap;
+  }
+  @font-face{
+    font-family:"UTM Avo";
+    src:url("fonts/UTMAvo-Bold.ttf") format("truetype");
+    font-weight:700; font-style:normal; font-display:swap;
+  }
+  @font-face{
+    font-family:"UTM Avo";
+    src:url("fonts/UTMAvo-BoldItalic.ttf") format("truetype");
+    font-weight:700; font-style:italic; font-display:swap;
+  }
+
+  :root{
+    --ground:#F6F8F6; --surface:#FFFFFF; --surface-2:#EDF1EE;
+    --ink:#141E1A; --ink-soft:#41544C; --ink-mute:#6C7F77;
+    --line:#D6DFDA; --line-soft:#E6ECE8;
+    --accent:#0F6B57; --accent-soft:#E1F0EA; --accent-ink:#0B4F40;
+    --ochre:#9A6B12; --ochre-soft:#F7EEDB;
+    --alert:#9C2F2F;
+    --shadow:0 1px 2px rgba(20,30,26,.05), 0 8px 24px -14px rgba(20,30,26,.22);
+    --sans:"UTM Avo","Segoe UI",system-ui,-apple-system,Arial,sans-serif;
+    --serif:"UTM Avo","Segoe UI",system-ui,-apple-system,Arial,sans-serif;
+    --mono:"UTM Avo","Segoe UI",system-ui,-apple-system,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --ground:#0E1614; --surface:#151F1C; --surface-2:#1B2723;
+      --ink:#E7EEEA; --ink-soft:#B0C1BA; --ink-mute:#829890;
+      --line:#2A3934; --line-soft:#223029;
+      --accent:#57C4A3; --accent-soft:#16302A; --accent-ink:#8ADCC1;
+      --ochre:#D9A94F; --ochre-soft:#2E2617;
+      --alert:#E38080;
+      --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -16px rgba(0,0,0,.7);
+    }
+  }
+  :root[data-theme="dark"]{
+    --ground:#0E1614; --surface:#151F1C; --surface-2:#1B2723;
+    --ink:#E7EEEA; --ink-soft:#B0C1BA; --ink-mute:#829890;
+    --line:#2A3934; --line-soft:#223029;
+    --accent:#57C4A3; --accent-soft:#16302A; --accent-ink:#8ADCC1;
+    --ochre:#D9A94F; --ochre-soft:#2E2617;
+    --alert:#E38080;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -16px rgba(0,0,0,.7);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth;scroll-padding-top:64px}
+  body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--serif);
+    font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:940px;margin:0 auto;padding:0 22px 96px}
+
+  nav{position:sticky;top:0;z-index:20;background:var(--ground);
+    border-bottom:1px solid var(--line-soft)}
+  nav ul{max-width:940px;margin:0 auto;padding:0 22px;display:flex;gap:2px;
+    list-style:none;overflow-x:auto;scrollbar-width:none}
+  nav ul::-webkit-scrollbar{display:none}
+  nav a{display:block;padding:11px 11px;white-space:nowrap;font-family:var(--sans);
+    font-size:13px;font-weight:700;color:var(--ink-mute);text-decoration:none;
+    border-bottom:2px solid transparent}
+  nav a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+  nav a:focus-visible{outline:2px solid var(--accent);outline-offset:-2px;border-radius:3px}
+
+  header{padding:52px 0 34px;border-bottom:1px solid var(--line)}
+  .eyebrow{font-family:var(--sans);font-size:11.5px;font-weight:700;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--accent);margin:0 0 14px}
+  h1{font-family:var(--sans);font-weight:700;font-size:clamp(30px,5.4vw,46px);line-height:1.1;
+    letter-spacing:-.022em;margin:0 0 16px;text-wrap:balance}
+  .lede{font-size:18px;line-height:1.55;color:var(--ink-soft);margin:0 0 26px;max-width:60ch}
+  .meta{display:flex;flex-wrap:wrap;gap:10px 26px;font-family:var(--sans);font-size:13.5px;color:var(--ink-mute)}
+  .meta b{color:var(--ink);font-weight:700}
+  .dl{display:inline-flex;align-items:center;gap:8px;margin-top:22px;padding:11px 18px;
+    background:var(--surface);border:1px solid var(--line);border-radius:9px;box-shadow:var(--shadow);
+    font-family:var(--sans);font-size:14px;font-weight:700;color:var(--accent-ink);
+    text-decoration:none}
+  .dl:hover{border-color:var(--accent)}
+  .dl span{font-family:var(--mono);font-size:12px;font-weight:400;color:var(--ink-mute)}
+
+  section{padding:46px 0;border-bottom:1px solid var(--line-soft)}
+  section:last-of-type{border-bottom:0}
+  h2{font-family:var(--sans);font-weight:700;font-size:clamp(22px,3.4vw,29px);line-height:1.2;
+    letter-spacing:-.018em;margin:0 0 10px;text-wrap:balance}
+  h3{font-family:var(--sans);font-weight:700;font-size:19px;letter-spacing:-.01em;margin:38px 0 12px}
+  h4{font-family:var(--sans);font-weight:700;font-size:16.5px;letter-spacing:-.006em;margin:26px 0 8px}
+  .sub{color:var(--ink-mute);font-size:15.5px;margin:0 0 26px;max-width:66ch}
+  p{margin:0 0 15px}
+  ul,ol{margin:0 0 16px;padding-left:24px}
+  li{margin:0 0 7px}
+  strong{font-weight:700}
+
+  .cards{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(270px,1fr))}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:10px;
+    padding:18px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:9px}
+  .card .num{font-family:var(--mono);font-size:12px;font-weight:700;color:var(--alert);letter-spacing:.06em}
+  .card .what{font-family:var(--sans);font-weight:700;font-size:15.5px;line-height:1.4}
+  .card .src{font-family:var(--sans);font-size:12px;color:var(--ink-mute);
+    padding-bottom:9px;border-bottom:1px dashed var(--line)}
+  .card .do{font-size:14.5px;line-height:1.55;color:var(--ink-soft)}
+  .card .do b{color:var(--ink)}
+
+  .block{display:grid;grid-template-columns:52px 1fr;gap:0 18px;padding:22px 0;border-top:1px solid var(--line-soft)}
+  .block:first-of-type{border-top:0}
+  .chip{font-family:var(--mono);font-size:12.5px;font-weight:700;color:var(--accent-ink);
+    background:var(--accent-soft);border-radius:6px;height:26px;display:flex;
+    align-items:center;justify-content:center}
+  .block h4{margin:0 0 8px;font-size:17px}
+  .block p,.block li{font-size:15.5px;color:var(--ink-soft)}
+  .block p{margin:0 0 10px}
+  .out{font-family:var(--sans);font-size:13px;color:var(--ink-mute);display:block;margin-top:6px}
+  .out b{color:var(--accent-ink);font-weight:700}
+
+  .flag{background:var(--ochre-soft);border-left:3px solid var(--ochre);border-radius:0 8px 8px 0;
+    padding:14px 16px;margin:16px 0;font-size:15px;line-height:1.55}
+  .flag .tag{display:block;font-family:var(--sans);font-size:11.5px;font-weight:700;
+    letter-spacing:.11em;text-transform:uppercase;color:var(--ochre);margin-bottom:6px}
+
+  .script{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--accent);
+    border-radius:0 10px 10px 0;padding:18px 20px;margin:14px 0 22px}
+  .script .who{font-family:var(--sans);font-size:11.5px;font-weight:700;letter-spacing:.11em;
+    text-transform:uppercase;color:var(--accent);margin:0 0 10px}
+  .script p{font-style:italic;font-size:16px;line-height:1.7;color:var(--ink-soft);margin:0 0 12px}
+  .script p:last-child{margin-bottom:0}
+  .script b{font-style:normal;color:var(--ink);font-weight:700}
+
+  .tl{display:flex;flex-direction:column}
+  .tl-item{display:grid;grid-template-columns:74px 1fr;gap:0 18px;padding:18px 0;border-top:1px solid var(--line-soft)}
+  .tl-item:first-child{border-top:0}
+  .tl-when{font-family:var(--mono);font-size:12px;font-weight:700;color:var(--ink-mute);padding-top:2px}
+  .tl-item h4{margin:0 0 6px;font-size:16.5px}
+  .tl-item p{font-size:15px;color:var(--ink-soft);margin:0 0 7px}
+
+  .tbl{overflow-x:auto;margin:18px 0 8px;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+  table{border-collapse:collapse;width:100%;min-width:560px;font-family:var(--sans);font-size:14px}
+  th{text-align:left;font-weight:700;font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--ink-mute);padding:12px 15px;border-bottom:1px solid var(--line);
+    background:var(--surface-2);white-space:nowrap}
+  td{padding:13px 15px;border-bottom:1px solid var(--line-soft);vertical-align:top;
+    line-height:1.5;color:var(--ink-soft)}
+  tr:last-child td{border-bottom:0}
+  td b{color:var(--ink)}
+  td.n{font-family:var(--mono);font-variant-numeric:tabular-nums;color:var(--ink-mute);white-space:nowrap}
+  a{color:var(--accent);text-decoration:underline;text-underline-offset:2px;text-decoration-thickness:1px}
+  a:hover{color:var(--accent-ink)}
+  a:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+  pre{background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:16px 18px;
+    overflow-x:auto;font-family:var(--mono);font-size:13.5px;line-height:1.7;color:var(--ink-soft);
+    margin:12px 0 22px;white-space:pre-wrap}
+  code{font-family:var(--mono);font-size:.94em;background:var(--surface-2);
+    padding:1px 6px;border-radius:4px;color:var(--ink)}
+  pre code{background:none;padding:0}
+
+  .rings{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));margin:18px 0 8px}
+  .ring{background:var(--surface);border:1px solid var(--line);border-radius:10px;
+    padding:16px 18px;box-shadow:var(--shadow)}
+  .ring-n{display:block;font-family:var(--sans);font-size:11.5px;font-weight:700;
+    letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:6px}
+  .ring b{display:block;font-family:var(--sans);font-size:17px;margin-bottom:6px}
+  .ring p{font-size:14.5px;line-height:1.5;color:var(--ink-soft);margin:0}
+
+  .check{list-style:none;padding:0;margin:12px 0 0;display:grid;gap:8px}
+  .check li{display:grid;grid-template-columns:20px 1fr;gap:11px;align-items:start;
+    font-size:15.5px;color:var(--ink-soft);margin:0}
+  .check li::before{content:"";width:15px;height:15px;margin-top:5px;border:1.5px solid var(--line);
+    border-radius:4px;background:var(--surface)}
+  .check li.hot::before{border-color:var(--ochre);background:var(--ochre-soft)}
+  .check li b{color:var(--ink)}
+
+  footer{padding:34px 0 0;border-top:1px solid var(--line);font-family:var(--sans);
+    font-size:13px;color:var(--ink-mute);line-height:1.6}
+
+  @media (max-width:560px){
+    body{font-size:16px}
+    .wrap{padding:0 16px 72px}
+    nav ul{padding:0 16px}
+    .block{grid-template-columns:1fr;gap:8px}
+    .chip{width:52px}
+    .tl-item{grid-template-columns:1fr;gap:5px}
+  }
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+  @media print{
+    nav,.dl{display:none}
+    body{background:#fff;color:#000;font-size:11pt}
+    .card,.script,.flag,.tbl,pre{break-inside:avoid}
+    section{border:0;padding:18px 0}
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li><a href="#moi">6 điểm mới</a></li>
+    <li><a href="#phuongan">Phương án</a></li>
+    <li><a href="#noidung">7 nhóm nội dung</a></li>
+    <li><a href="#tochuc">Tổ chức</a></li>
+    <li><a href="#lich">Lịch 5 buổi</a></li>
+    <li><a href="#namhoc">Cả năm học</a></li>
+    <li><a href="#kichban">Kịch bản mục 3</a></li>
+    <li><a href="#thongnhat">Mục 4</a></li>
+    <li><a href="#chuyende">4 chuyên đề</a></li>
+    <li><a href="#congcu">6 công cụ</a></li>
+    <li><a href="#phuluc">Phụ lục</a></li>
+    <li><a href="#canhcu">Căn cứ</a></li>
+  </ul>
+</nav>
+
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">Trường Mầm non ……… · Nghệ An</p>
+  <h1>Sổ tay triển khai năm học 2026&nbsp;–&nbsp;2027</h1>
+  <p class="lede">Phương án, kế hoạch và kịch bản điều hành cho mục 3 và mục 4 của hội nghị chuyên môn: xây dựng kế hoạch giáo dục từng độ tuổi, các chuyên đề và công tác tập huấn.</p>
+  <div class="meta">
+    <span>Phụ trách · <b>Đ/c ……… Thị Huyền, Phó Hiệu trưởng</b></span>
+    <span>Văn bản cập nhật đến · <b>14/8/2026</b></span>
+  </div>
+  <a class="dl" href="PHUONG-AN-KE-HOACH-KICH-BAN-2026-2027.docx" download>Tải bản Word đầy đủ <span>40 trang · .docx</span></a>
+</header>
+
+<!-- ============ 6 DIEM MOI ============ -->
+<section id="moi">
+  <h2>06 điểm mới phải quán triệt trước khi triển khai</h2>
+  <p class="sub">Văn bản ban hành trong năm 2026 làm thay đổi một số nội dung so với đề cương chuẩn bị ban đầu. Cần nói rõ ngay từ đầu hội nghị để tránh làm sai.</p>
+  <div class="cards">
+    <div class="card">
+      <span class="num">01</span>
+      <span class="what">STEAM/STEM thực hiện theo hướng tích hợp, không tổ chức thành hoạt động riêng</span>
+      <span class="src">CV 5385/BGDĐT-GDMN · 12/8/2026</span>
+      <span class="do">Không xếp <b>“tiết STEAM”</b> trên thời khoá biểu. Tích hợp vào hoạt động chơi, hoạt động học, hoạt động ngoài trời và sinh hoạt hằng ngày.</span>
+    </div>
+    <div class="card">
+      <span class="num">02</span>
+      <span class="what">Từ học kỳ I, tuyệt đối không phát sinh hồ sơ ngoài quy định của Bộ</span>
+      <span class="src">CV 5385/BGDĐT-GDMN · 12/8/2026</span>
+      <span class="do">Việc đầu tiên <b>không phải số hoá</b>, mà là rà soát cắt bỏ sổ sách trường, tổ tự đặt ra ngoài Điều 21 Điều lệ. Số hoá cái đã tinh gọn.</span>
+    </div>
+    <div class="card">
+      <span class="num">03</span>
+      <span class="what">Chuyển từ quản lý theo hồ sơ sang quản trị dựa trên dữ liệu</span>
+      <span class="src">CV 5385/BGDĐT-GDMN · 12/8/2026</span>
+      <span class="do">Nguyên tắc <b>“dữ liệu nhập một lần, dùng nhiều lần”</b>. Báo cáo trích xuất từ hệ thống, không bắt giáo viên kê khai lại cho từng báo cáo.</span>
+    </div>
+    <div class="card">
+      <span class="num">04</span>
+      <span class="what">Việc quản lý hồ sơ điện tử do Sở GD&amp;ĐT quy định theo chuẩn dữ liệu của Bộ</span>
+      <span class="src">Khoản 4 Điều 21, TT 52/2020/TT-BGDĐT</span>
+      <span class="do">Trường không tự chọn nền tảng thay thế. Hệ thống chính thức là <b>Cổng giáo dục số Nghệ An</b>; Google Drive chỉ là kho học liệu phụ trợ.</span>
+    </div>
+    <div class="card">
+      <span class="num">05</span>
+      <span class="what">Từ 15/8/2026, trường mầm non do UBND cấp xã quản lý</span>
+      <span class="src">TT 51/2026/TT-BGDĐT · hiệu lực 15/8/2026</span>
+      <span class="do">Đầu mối trình kế hoạch, báo cáo thay đổi; Phòng Văn hoá – Xã hội tham mưu. Phong trào <b>“Xã giúp xã, trường giúp trường”</b> gắn trực tiếp với cấp xã.</span>
+    </div>
+    <div class="card">
+      <span class="num">06</span>
+      <span class="what">Chuẩn nghề nghiệp giáo viên mầm non mới, có tiêu chuẩn về ứng dụng công nghệ</span>
+      <span class="src">TT 28/2026/TT-BGDĐT · 09/4/2026</span>
+      <span class="do">Toàn bộ nội dung tập huấn CNTT – AI <b>là minh chứng đánh giá chuẩn nghề nghiệp</b> cuối năm, không phải việc làm thêm.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PHUONG AN: MUC DICH ============ -->
+<section id="phuongan">
+  <h2>Phần thứ nhất · Phương án triển khai</h2>
+
+  <h3>Mục đích</h3>
+  <ul>
+    <li><b>Cắt giảm thực chất gánh nặng hành chính:</b> rà soát, loại bỏ toàn bộ sổ sách, biểu mẫu, báo cáo phát sinh ngoài quy định; hoàn tất trước ngày khai giảng.</li>
+    <li><b>Thống nhất một khung chung toàn trường</b> về môi trường giáo dục, kế hoạch giáo dục từng độ tuổi và cách tích hợp STEAM, tránh mỗi lớp một kiểu.</li>
+    <li><b>Nâng năng lực đội ngũ theo Chuẩn nghề nghiệp mới</b>, đặc biệt là ứng dụng công nghệ, đánh giá sự phát triển của trẻ và phối hợp với cha mẹ trẻ.</li>
+    <li><b>Tiếp cận sớm tinh thần Chương trình GDMN thí điểm</b> — tiếp cận năng lực, học qua trải nghiệm, đánh giá theo sự tiến bộ.</li>
+    <li><b>Tạo sản phẩm dùng được ngay:</b> mỗi nội dung tập huấn kết thúc là mỗi lớp có sản phẩm đưa vào sử dụng trong năm học.</li>
+  </ul>
+
+  <h3>Yêu cầu</h3>
+  <ul>
+    <li><b>Không làm phát sinh hồ sơ mới.</b> Sản phẩm của đợt tập huấn là học liệu và công cụ hỗ trợ, không biến thành loại sổ sách mới bắt giáo viên phải làm.</li>
+    <li><b>STEAM tích hợp, không tách riêng.</b> Không xếp “tiết STEAM” trên thời khoá biểu; không tổ chức hội thi gây áp lực cho giáo viên và trẻ.</li>
+    <li><b>Học đi đôi với làm</b> — “cầm tay chỉ việc”, tối thiểu 60% thời lượng mỗi buổi là thực hành trực tiếp.</li>
+    <li><b>Không ai bị bỏ lại</b> — giáo viên yếu CNTT được ghép cặp 1–1 với giáo viên cốt cán.</li>
+    <li><b>Sinh hoạt chuyên môn thiết thực</b>, bám Chương trình GDMN và nhu cầu thật của giáo viên; không tạo thêm tầng nấc trung gian.</li>
+    <li><b>An toàn tuyệt đối cho trẻ và dữ liệu của trẻ</b> trên mọi nền tảng, đặc biệt khi dùng công cụ AI.</li>
+  </ul>
+
+  <h3>Đối tượng, thời gian, hình thức</h3>
+  <div class="tbl">
+    <table>
+      <tbody>
+        <tr><td style="width:22%"><b>Đối tượng</b></td><td>Toàn thể CBQL, giáo viên, nhân viên (……… đồng chí); trong đó ……… giáo viên cốt cán</td></tr>
+        <tr><td><b>Thời gian</b></td><td>Đợt tập trung …/8/2026 – …/8/2026 (05 buổi). Duy trì, bồi dưỡng thường xuyên cả năm học</td></tr>
+        <tr><td><b>Địa điểm</b></td><td>Phòng hội đồng, phòng chức năng (có máy chiếu, wifi) và tại các nhóm lớp</td></tr>
+        <tr><td><b>Hình thức</b></td><td>(1) Tập trung toàn trường — quán triệt văn bản và làm mẫu; (2) Thực hành theo tổ chuyên môn; (3) Kèm cặp 1–1 tại lớp; (4) Nhóm Zalo hỗ trợ trực tuyến thường trực</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ============ 7 NHOM NOI DUNG ============ -->
+<section id="noidung">
+  <h2>Bảy nhóm nội dung triển khai</h2>
+  <p class="sub">Thực hiện tuần tự. Nhóm 0 là yêu cầu bắt buộc có mốc thời gian cứng, phải xong trước khi tập huấn hồ sơ số.</p>
+
+  <div class="block">
+    <span class="chip">00</span>
+    <div>
+      <h4>Rà soát, cắt giảm hồ sơ sổ sách</h4>
+      <p>Thống kê tất cả sổ sách, biểu mẫu, báo cáo giáo viên đang phải làm — kể cả sổ chép tay và biểu mẫu phục vụ hội thi. Đối chiếu Điều 21 Điều lệ, phân loại <b>GIỮ / GỘP / BỎ</b>. Ban hành Danh mục hồ sơ, công khai để giáo viên yên tâm.</p>
+      <div class="tbl">
+        <table>
+          <thead><tr><th>Chủ thể</th><th>Hồ sơ đúng quy định theo Điều 21 Điều lệ trường mầm non</th></tr></thead>
+          <tbody>
+            <tr><td>Nhà trường</td><td>Hồ sơ quản lý trẻ em; hồ sơ quản lý cán bộ, giáo viên, nhân viên; kế hoạch phát triển nhà trường; kế hoạch nuôi dưỡng, chăm sóc, giáo dục; hồ sơ phổ cập giáo dục; hồ sơ quản lý tài sản, tài chính</td></tr>
+            <tr><td>Tổ chuyên môn</td><td>Kế hoạch hoạt động của tổ; sổ ghi chép nội dung sinh hoạt chuyên môn của tổ</td></tr>
+            <tr><td><b>Giáo viên</b></td><td><b>Kế hoạch nuôi dưỡng, chăm sóc, giáo dục của nhóm trẻ, lớp mẫu giáo; sổ theo dõi trẻ em; sổ theo dõi tài sản, thiết bị của nhóm, lớp</b></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <span class="out">Sản phẩm · <b>Danh mục hồ sơ năm học 2026–2027 do Hiệu trưởng ký ban hành, hoàn thành trước …/8/2026</b></span>
+    </div>
+  </div>
+
+  <div class="block">
+    <span class="chip">01</span>
+    <div>
+      <h4>Thiết kế, xây dựng môi trường nhóm lớp theo hướng STEAM</h4>
+      <p><b>Nguyên tắc:</b> an toàn — mở — linh hoạt — do trẻ làm ra và phản ánh văn hoá địa phương — tận dụng nguyên vật liệu sẵn có. Không mua sắm tốn kém, không trang trí phô trương để đối phó kiểm tra.</p>
+      <ul>
+        <li>Bốn khu vực tối thiểu: <b>Khám phá khoa học (S)</b> · <b>Chế tạo, xây dựng, lắp ghép (T, E)</b> · <b>Nghệ thuật sáng tạo (A)</b> · <b>Toán và Thư viện (M)</b>.</li>
+        <li>Kho <b>nguyên vật liệu mở</b>: nắp chai, ống hút, que kem, hộp giấy, sỏi, vỏ ngao, tre nứa, vải vụn… phân loại theo rổ, dán ký hiệu bằng hình ảnh để trẻ tự lấy, tự cất.</li>
+        <li>Môi trường ngoài lớp: vườn rau của bé, khu cát – nước, khu tái chế, góc thiên nhiên.</li>
+        <li><b>Trưng bày quá trình chứ không chỉ sản phẩm đẹp:</b> ảnh trẻ đang làm, bản vẽ nháp, sản phẩm chưa hoàn thiện, có tên trẻ, ngang tầm mắt trẻ.</li>
+        <li>Khai thác vật liệu, nghề truyền thống, sản vật của địa phương làm học liệu.</li>
+      </ul>
+      <p><b>Cách làm:</b> quán triệt nguyên tắc và xem ảnh mẫu → tham quan 01 lớp điểm → mỗi tổ chọn 01 lớp cùng cải tạo trực tiếp trong 01 buổi → các lớp còn lại tự làm, tổ trưởng nghiệm thu.</p>
+      <span class="out">Sản phẩm · <b>Sơ đồ và ảnh trước–sau từng lớp; danh mục kho nguyên vật liệu mở; bộ tiêu chí để các tổ chấm chéo</b></span>
+    </div>
+  </div>
+
+  <div class="block">
+    <span class="chip">02</span>
+    <div>
+      <h4>Xây dựng kế hoạch giáo dục từng độ tuổi</h4>
+      <div class="flag">
+        <span class="tag">Điều chỉnh quan trọng</span>
+        CV 5385 yêu cầu STEAM/STEM <b>tích hợp, không tổ chức thành hoạt động riêng</b>. Không thiết kế “tiết STEAM” hay “chủ đề STEAM” tách rời, mà tích hợp yếu tố STEAM vào các hoạt động vốn có: chơi ở các góc, hoạt động học, ngoài trời, lao động – trải nghiệm và sinh hoạt hằng ngày.
+      </div>
+      <ul>
+        <li>Quy trình 4 cấp: <b>KH giáo dục năm → KH chủ đề/tháng → KH tuần → KH ngày</b>.</li>
+        <li>Xác định mục tiêu theo độ tuổi (Nhà trẻ 24–36 tháng; MG 3–4; 4–5; 5–6 tuổi) bám 5 lĩnh vực phát triển của Chương trình GDMN hiện hành.</li>
+        <li>Tiếp cận sớm định hướng Chương trình thí điểm: chuyển trọng tâm từ trẻ “biết gì” sang trẻ <b>“làm được gì”</b> và <b>“phản ứng thế nào”</b> trước tình huống thực tế; lấy trục <b>tình cảm – xã hội</b> làm nền.</li>
+        <li>Vận dụng quy trình thiết kế kỹ thuật 5 bước <b>Hỏi – Tưởng tượng – Lập kế hoạch – Thực hiện – Cải tiến</b> và mô hình 5E, dùng như cách dẫn dắt trẻ trong hoạt động, không phải như một loại giáo án riêng.</li>
+        <li>Ngân hàng ý tưởng tích hợp theo chủ đề: <em>Làm cầu qua khe suối, Xe chạy bằng bóng bay, Ngôi nhà không dột, Máy tưới rau tự chế, Đèn ông sao</em> — tận dụng bối cảnh nông thôn, miền núi Nghệ An.</li>
+        <li>Nhà trường được <b>tự chủ</b> điều chỉnh thời lượng hoạt động theo nhịp sinh học của trẻ và điều kiện thực tế.</li>
+      </ul>
+      <p><b>Cách làm:</b> chia 4 nhóm theo độ tuổi, xây dựng trực tiếp trên file dùng chung ngay tại buổi tập huấn; báo cáo chéo; Hiệu trưởng duyệt; dùng chung toàn trường. Giáo viên chỉ điều chỉnh cho phù hợp lớp mình, <b>không phải soạn lại từ đầu</b>.</p>
+      <span class="out">Sản phẩm · <b>04 bộ KHGD năm; mẫu khung KH tuần/ngày thống nhất; ngân hàng ≥ 20 ý tưởng; 04 kế hoạch hoạt động minh hoạ</b></span>
+    </div>
+  </div>
+
+  <div class="block">
+    <span class="chip">03</span>
+    <div>
+      <h4>Tập huấn hồ sơ số, tuyệt đối không làm hồ sơ giấy</h4>
+      <div class="flag">
+        <span class="tag">Điều chỉnh quan trọng</span>
+        Theo khoản 4 Điều 21 Điều lệ, hồ sơ điện tử được dùng thay hồ sơ giấy <b>theo lộ trình</b>, và <b>việc quản lý hồ sơ điện tử do Sở GD&amp;ĐT quy định</b> theo chuẩn kết nối, chuẩn dữ liệu của Bộ. Hệ thống chính thức là nền tảng của ngành — <b>Cổng giáo dục số Nghệ An</b>, có tích hợp chữ ký số và xác thực điện tử. Google Drive chỉ là kho học liệu và không gian làm việc phụ trợ, <b>không được coi là hồ sơ điện tử hợp lệ thay thế hệ thống ngành</b>.
+      </div>
+      <p><b>Bước 1 — Pháp lý:</b> đối chiếu Danh mục hồ sơ (Nhóm 0) với quy định của Sở để xác định loại nào số hoá hoàn toàn, loại nào còn phải lưu bản giấy có ký, đóng dấu.</p>
+      <p><b>Bước 2 — Hệ thống ngành:</b> 100% CBGV đăng nhập được Cổng giáo dục số Nghệ An; thành thạo các phân hệ quản lý trẻ, quản lý CBGVNV, dữ liệu theo Thông tư 09, tuyển sinh trực tuyến; sử dụng chữ ký số nếu đã được cấp.</p>
+      <p><b>Bước 3 — Không gian làm việc phụ trợ:</b> cây thư mục Drive theo cấu trúc thống nhất.</p>
+      <pre>NAM HOC 2026-2027 / [Tổ] / [Lớp] /
+      01_KH giáo dục
+      02_Học liệu
+      03_Theo dõi trẻ
+      04_Tuyên truyền
+      05_Hình ảnh hoạt động</pre>
+      <p><b>Quy tắc đặt tên file:</b> <code>Lop_LoaiHoSo_Thang_Nam</code> — ví dụ <code>5A1_KHTuan_T09_2026</code></p>
+      <ul>
+        <li><b>Phân quyền:</b> giáo viên chỉnh sửa thư mục lớp mình — tổ trưởng xem toàn tổ — Ban giám hiệu toàn quyền.</li>
+        <li><b>Quy trình duyệt trên bản số:</b> giáo viên nộp → tổ trưởng nhận xét bằng tính năng Nhận xét → BGH duyệt, ghi ngày duyệt → <b>không in ra giấy</b>.</li>
+        <li><b>Nguyên tắc “dữ liệu nhập một lần, dùng nhiều lần”:</b> mọi số liệu về trẻ, đội ngũ, CSVC nhập một lần vào hệ thống, các báo cáo đều trích xuất từ đó.</li>
+        <li><b>Sao lưu:</b> hệ thống ngành là bản gốc; sao lưu định kỳ hằng tháng ra ổ cứng của trường.</li>
+      </ul>
+      <span class="out">Sản phẩm · <b>Danh mục hồ sơ số hoá; Quy chế hồ sơ số; cây thư mục cho từng lớp; 100% GV đăng nhập và nộp thử 01 file</b></span>
+    </div>
+  </div>
+
+  <div class="block">
+    <span class="chip">04</span>
+    <div>
+      <h4>Tập huấn 04 chuyên đề trọng tâm</h4>
+      <div class="tbl">
+        <table>
+          <thead><tr><th>Chuyên đề</th><th>Trọng tâm triển khai</th><th>Sản phẩm</th></tr></thead>
+          <tbody>
+            <tr>
+              <td><b>1. Phối hợp gia đình – nhà trường – cộng đồng</b></td>
+              <td>Là 01 trong 06 nhóm nhiệm vụ trọng tâm của năm học. Kênh thông tin hai chiều với cha mẹ trẻ; đổi mới nội dung, hình thức họp phụ huynh; huy động phụ huynh tham gia hoạt động trải nghiệm cùng con; kết nối trạm y tế, đoàn thể, UBND xã; hướng dẫn cha mẹ đồng hành tại nhà</td>
+              <td>Kế hoạch phối hợp cả năm; bộ nội dung họp PH đầu năm; danh sách “phụ huynh đồng hành” từng lớp</td>
+            </tr>
+            <tr>
+              <td><b>2. Xây dựng trường mầm non lấy trẻ làm trung tâm</b></td>
+              <td>Rà soát theo bộ tiêu chí; trẻ được lựa chọn, được thử – sai – làm lại; giáo viên quan sát và ghi chép sự tiến bộ của từng trẻ; tiếp cận cách đánh giá theo sự tiến bộ bằng hồ sơ cá nhân trẻ thay cho đánh giá đồng loạt theo chuẩn</td>
+              <td>Bảng tự đánh giá theo tiêu chí; 01 hoạt động minh hoạ mỗi tổ; mẫu hồ sơ cá nhân trẻ</td>
+            </tr>
+            <tr>
+              <td><b>3. Hỗ trợ trẻ 5 tuổi trong giai đoạn chuyển tiếp</b></td>
+              <td>CV 5385 nhấn mạnh <b>không dạy trước chương trình lớp Một</b>. Chuẩn bị tâm thế, kỹ năng tự phục vụ, chú ý có chủ định, làm quen chữ và số đúng mức độ của Chương trình GDMN; phối hợp với trường tiểu học; truyền thông để cha mẹ không cho con học trước</td>
+              <td>Kế hoạch chuyển tiếp khối 5 tuổi; nội dung tuyên truyền; kế hoạch giao lưu với trường tiểu học</td>
+            </tr>
+            <tr>
+              <td><b>4. “Xã giúp xã, trường giúp trường”</b></td>
+              <td>Gắn với mô hình chính quyền hai cấp — từ 15/8/2026 trường mầm non do UBND cấp xã quản lý. Xác định thế mạnh của trường để hỗ trợ đơn vị bạn và nội dung cần được hỗ trợ; sinh hoạt chuyên môn liên trường, dự giờ chéo, chia sẻ kho học liệu số dùng chung</td>
+              <td>Biên bản phân công hỗ trợ; lịch sinh hoạt liên trường; thư mục học liệu dùng chung</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <span class="out">Triển khai · <b>Mỗi chuyên đề 75 phút trong sinh hoạt chuyên môn hằng tháng. Không tổ chức thành hội thi, không yêu cầu báo cáo giấy</b></span>
+    </div>
+  </div>
+
+  <div class="block">
+    <span class="chip">05</span>
+    <div>
+      <h4>Tập huấn công tác tuyên truyền</h4>
+      <ul>
+        <li>Góc tuyên truyền tại lớp: nội dung ngắn, hình ảnh lớn, thay theo chủ đề, tháng.</li>
+        <li>Kênh số: nhóm Zalo lớp, fanpage, website trường — quy định giờ đăng, người duyệt.</li>
+        <li><b>Nội dung trọng tâm năm học:</b> không dạy trước chương trình lớp Một; phòng chống tai nạn thương tích và xâm hại trẻ em; an toàn thực phẩm; phổ cập GDMN cho trẻ 3–5 tuổi; hướng dẫn cha mẹ cho trẻ dùng thiết bị số an toàn, có trách nhiệm.</li>
+        <li>Kỹ năng viết tin ngắn (Ai – Việc gì – Khi nào – Ở đâu – Ý nghĩa gì), 150–250 chữ.</li>
+        <li>Kỹ năng chụp ảnh hoạt động: bắt khoảnh khắc trẻ đang làm, đủ sáng, hạn chế ảnh xếp hàng chụp tập thể.</li>
+      </ul>
+      <div class="flag">
+        <span class="tag">Đề nghị thành quy định của trường</span>
+        Phải có <b>phiếu đồng ý của cha mẹ trẻ</b> trước khi đăng bất kỳ hình ảnh nào của trẻ. Không đăng thông tin cá nhân (địa chỉ, số điện thoại, hoàn cảnh gia đình). Không đăng ảnh trẻ trong tình huống nhạy cảm.
+      </div>
+      <span class="out">Sản phẩm · <b>Kế hoạch tuyên truyền năm học; mẫu phiếu xin ý kiến cha mẹ trẻ; 01 tin bài mẫu mỗi tổ; khung nội dung góc tuyên truyền</b></span>
+    </div>
+  </div>
+
+  <div class="block">
+    <span class="chip">06</span>
+    <div>
+      <h4>Tập huấn ứng dụng CNTT – trí tuệ nhân tạo</h4>
+      <p>Trực tiếp thực hiện yêu cầu của CV 5385 về ứng dụng chuyển đổi số và AI trong bồi dưỡng đội ngũ, đồng thời là minh chứng cho tiêu chuẩn ứng dụng công nghệ trong Chuẩn nghề nghiệp GVMN.</p>
+      <p><b>Phương châm:</b> máy trước – lời sau; làm mẫu từng bước – học viên làm theo ngay – ai xong trước kèm người bên cạnh. <b>Chuẩn bị bắt buộc:</b> mỗi giáo viên mang 01 điện thoại thông minh và 01 máy tính (tối thiểu 1 máy cho 2 người), đã đăng nhập sẵn Gmail và nhớ mật khẩu trước buổi học.</p>
+      <div class="tbl">
+        <table>
+          <thead><tr><th>TT</th><th>Công cụ</th><th>Ứng dụng vào việc gì</th><th>Sản phẩm</th></tr></thead>
+          <tbody>
+            <tr><td class="n">6.1</td><td><b>Google Biểu mẫu</b></td><td>Phiếu thông tin trẻ đầu năm, khảo sát nhu cầu cha mẹ trẻ, đăng ký bán trú, phiếu xin ý kiến về sử dụng hình ảnh trẻ, điểm danh sự kiện</td><td>Mỗi lớp 01 biểu mẫu chạy được, kèm mã QR và bảng tổng hợp tự động</td></tr>
+            <tr><td class="n">6.2</td><td><b>Gemini</b> — truyện tranh</td><td>Truyện kể theo chủ đề, truyện giáo dục kỹ năng: rửa tay, an toàn giao thông, không đi theo người lạ, phòng tránh xâm hại</td><td>Mỗi giáo viên 01 truyện tranh theo chủ đề tháng 9</td></tr>
+            <tr><td class="n">6.3</td><td><b>Suno</b> — phổ nhạc</td><td>Phổ nhạc thơ, lời tự sáng tác theo chủ đề; nhạc nền hoạt động; bài hát riêng của lớp</td><td>Mỗi tổ 01 bài hát chủ đề có file nhạc</td></tr>
+            <tr><td class="n">6.4</td><td><b>Canva</b> + mã QR</td><td>Poster thông tin giáo viên lớp, bảng danh sách trẻ đầu năm, biển tên khu vực chơi, nội dung góc tuyên truyền</td><td>Mỗi lớp 01 poster giáo viên và 01 bảng danh sách trẻ có mã QR</td></tr>
+            <tr><td class="n">6.5</td><td><b>AI + PowerPoint</b></td><td>Nội dung họp phụ huynh, báo cáo chuyên đề, học liệu trình chiếu</td><td>Mỗi tổ 01 bài trình chiếu họp phụ huynh đầu năm</td></tr>
+            <tr><td class="n">6.6</td><td><b>Gem trên Gemini</b></td><td>Trợ lý được nạp sẵn Chương trình GDMN và khung kế hoạch của trường, gợi ý mục tiêu, hoạt động, câu hỏi mở đúng độ tuổi</td><td>01 trợ lý dùng chung toàn trường và hướng dẫn sử dụng 1 trang</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="flag">
+        <span class="tag">Năm nguyên tắc dùng AI an toàn — phổ biến bắt buộc trước khi thực hành</span>
+        <b>1.</b> Không nhập thông tin cá nhân của trẻ và gia đình vào bất kỳ công cụ AI nào. &nbsp;
+        <b>2.</b> Không tải ảnh thật của trẻ lên công cụ AI. &nbsp;
+        <b>3.</b> Sản phẩm AI tạo ra phải được giáo viên đọc, duyệt, chỉnh sửa trước khi dùng với trẻ. &nbsp;
+        <b>4.</b> Ưu tiên tài khoản miễn phí; không tự ý mua gói trả phí bằng kinh phí nhà trường. &nbsp;
+        <b>5.</b> AI hỗ trợ giáo viên, không thay thế tương tác trực tiếp với trẻ; hạn chế tối đa cho trẻ tiếp xúc màn hình.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TO CHUC ============ -->
+<section id="tochuc">
+  <h2>Tổ chức, phân công và điều kiện</h2>
+
+  <h3>Mô hình 3 vòng lan toả</h3>
+  <div class="rings">
+    <div class="ring"><span class="ring-n">Vòng 1</span><b>Cốt cán</b><p>Ban giám hiệu, 04 tổ trưởng và giáo viên giỏi CNTT — tập huấn nội bộ đi trước 01 tuần</p></div>
+    <div class="ring"><span class="ring-n">Vòng 2</span><b>Đại trà</b><p>Toàn thể giáo viên theo tổ, trong đợt tập trung tháng 8/2026</p></div>
+    <div class="ring"><span class="ring-n">Vòng 3</span><b>Tại lớp</b><p>Kèm cặp 1–1, áp dụng và duy trì suốt cả năm học</p></div>
+  </div>
+
+  <h3>Phân đợt</h3>
+  <div class="tbl">
+    <table>
+      <thead><tr><th>Đợt</th><th>Thời gian</th><th>Nội dung</th><th>Hình thức</th></tr></thead>
+      <tbody>
+        <tr><td><b>Đợt 0 — Chuẩn bị</b></td><td class="n">Tuần …/8/2026</td><td>Quán triệt CV 5385; rà soát cắt giảm hồ sơ; tập huấn cốt cán; chuẩn bị tài khoản, thiết bị, lớp điểm</td><td>Nhóm nhỏ</td></tr>
+        <tr><td><b>Đợt 1 — Tập trung</b></td><td class="n">…/8 – …/8/2026</td><td>Toàn bộ Nhóm 1 đến Nhóm 6, trong 05 buổi</td><td>Tập trung và thực hành</td></tr>
+        <tr><td><b>Đợt 2 — Áp dụng</b></td><td class="n">9/2026 – 10/2026</td><td>Hoàn thiện môi trường lớp, KHGD, hồ sơ số; nghiệm thu sản phẩm</td><td>Tại tổ, tại lớp</td></tr>
+        <tr><td><b>Đợt 3 — Duy trì</b></td><td class="n">11/2026 – 5/2027</td><td>Sinh hoạt chuyên môn theo chuyên đề hằng tháng; liên trường; sơ kết, tổng kết</td><td>Định kỳ</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Nguyên tắc điều hành mỗi buổi tập huấn</h3>
+  <pre>Kiểm tra sự chuẩn bị (5′) → Nêu sản phẩm cần đạt (5′) → Làm mẫu từng bước (20′)
+→ Học viên thực hành, cốt cán đi hỗ trợ (60′) → Trưng bày, nhận xét chéo (20′)
+→ Chốt và giao việc (10′)</pre>
+
+  <h3>Phân công nhiệm vụ</h3>
+  <div class="tbl">
+    <table>
+      <thead><tr><th>TT</th><th>Người, bộ phận</th><th>Nhiệm vụ</th></tr></thead>
+      <tbody>
+        <tr><td class="n">1</td><td><b>Đ/c Huyền — PHT chuyên môn</b></td><td>Chủ trì xây dựng, triển khai toàn bộ Phương án; quán triệt CV 5385; báo cáo Nhóm 0, 1, 2, 4; điều hành thảo luận và thống nhất; nghiệm thu sản phẩm</td></tr>
+        <tr><td class="n">2</td><td>Hiệu trưởng</td><td>Phê duyệt Phương án, Danh mục hồ sơ, Quy chế hồ sơ số, kinh phí; chỉ đạo chung; báo cáo UBND xã</td></tr>
+        <tr><td class="n">3</td><td>PHT phụ trách nuôi dưỡng</td><td>Phối hợp chuyên đề 1 (gia đình – y tế – cộng đồng); an toàn thực phẩm, phòng chống tai nạn thương tích</td></tr>
+        <tr><td class="n">4</td><td>Đ/c ……… (phụ trách CNTT)</td><td>Báo cáo viên Nhóm 3 và Nhóm 6; <b>liên hệ Sở GD&amp;ĐT xin quy định hồ sơ điện tử</b>; quản trị tài khoản Cổng giáo dục số; xử lý sự cố kỹ thuật; quản trị nhóm Zalo hỗ trợ</td></tr>
+        <tr><td class="n">5</td><td>04 Tổ trưởng chuyên môn</td><td>Cốt cán; điều hành nhóm thực hành theo độ tuổi; kèm cặp giáo viên yếu; nghiệm thu sản phẩm của tổ</td></tr>
+        <tr><td class="n">6</td><td>Đ/c ……… (Thư ký)</td><td>Ghi biên bản; tổng hợp ý kiến; lưu sản phẩm lên hệ thống</td></tr>
+        <tr><td class="n">7</td><td>Kế toán – Văn phòng</td><td>Dự trù kinh phí; chuẩn bị hội trường, thiết bị, tài liệu</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Điều kiện đảm bảo</h3>
+  <div class="tbl">
+    <table>
+      <thead><tr><th>Nhóm điều kiện</th><th>Yêu cầu cụ thể</th></tr></thead>
+      <tbody>
+        <tr><td>Thiết bị</td><td>Máy chiếu hoặc màn hình lớn; loa; ổ cắm điện đủ dùng; tối thiểu 01 máy tính cho 2 học viên; 100% giáo viên có điện thoại thông minh</td></tr>
+        <tr><td>Hạ tầng mạng</td><td>Wifi chịu tải ít nhất …… thiết bị đồng thời. <b>Bắt buộc có phương án 2:</b> phát 4G từ điện thoại của cốt cán, chia theo nhóm</td></tr>
+        <tr><td>Tài khoản</td><td>100% giáo viên có Gmail và nhớ mật khẩu (rà soát trước 03 ngày); tài khoản Cổng giáo dục số Nghệ An; chữ ký số nếu đã được cấp; tài khoản Canva, Suno đăng nhập bằng Google</td></tr>
+        <tr><td>Học liệu</td><td>Tài liệu hướng dẫn 1 trang cho mỗi công cụ, có ảnh chụp màn hình; video quay lại toàn bộ thao tác để giáo viên xem lại; kho ảnh mẫu môi trường lớp</td></tr>
+        <tr><td>Kinh phí</td><td>Nguyên vật liệu làm môi trường lớp; in ấn; nước uống; hỗ trợ báo cáo viên nếu mời ngoài. <b>Ưu tiên tận dụng nguồn sẵn có, không phát sinh chi phí lớn</b></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Dự kiến khó khăn và phương án xử lý</h3>
+  <div class="tbl">
+    <table>
+      <thead><tr><th>Khó khăn dự kiến</th><th>Phương án xử lý</th></tr></thead>
+      <tbody>
+        <tr><td>Giáo viên lớn tuổi ngại, yếu CNTT</td><td>Ghép cặp 1 cốt cán – 1 giáo viên ngay từ đầu buổi; tài liệu từng bước có ảnh; quay video xem lại; <b>chỉ bắt buộc thành thạo 4/6 kỹ năng</b></td></tr>
+        <tr><td>Mạng yếu, mất mạng giữa buổi</td><td>Phát 4G dự phòng; chuẩn bị sẵn bản demo ngoại tuyến; đảo sang nội dung không cần mạng</td></tr>
+        <tr><td>Chưa có quy định của Sở về hồ sơ điện tử</td><td>Làm trước phần rà soát, cắt giảm hồ sơ và thao tác trên Cổng giáo dục số; <b>tạm chưa ban hành Quy chế hồ sơ số</b> cho tới khi có hướng dẫn; giữ nguyên bản giấy với hồ sơ pháp lý bắt buộc</td></tr>
+        <tr><td>Tâm lý lo “bỏ hồ sơ giấy sẽ khó khi thanh, kiểm tra”</td><td>Giải thích: CV 5385 yêu cầu chuyển sang quản trị dựa trên dữ liệu, thanh – kiểm tra cũng chuyển theo hướng này; ban hành Danh mục hồ sơ có chữ ký Hiệu trưởng; sao lưu định kỳ</td></tr>
+        <tr><td>Hiểu sai STEAM thành phải dạy tiết riêng, mua đồ dùng đắt tiền</td><td>Quán triệt ngay từ buổi đầu: <b>tích hợp, không tổ chức riêng</b>; ưu tiên nguyên vật liệu tái chế, sẵn có tại địa phương</td></tr>
+        <tr><td>Công cụ AI đổi giao diện, giới hạn lượt dùng miễn phí</td><td>Hướng dẫn theo nguyên lý thao tác, không phụ thuộc vị trí nút; thực hành nhóm 2–3 người trên 1 tài khoản; chuẩn bị công cụ thay thế</td></tr>
+        <tr><td>Quá tải đầu năm học</td><td>Giãn theo 3 đợt; đợt tập trung chỉ làm khung và mẫu, hoàn thiện chuyển sang sinh hoạt tổ tháng 9, 10</td></tr>
+        <tr><td>Làm hình thức, làm xong để đấy</td><td>Gắn với nghiệm thu sản phẩm và minh chứng đánh giá Chuẩn nghề nghiệp; công khai sản phẩm các lớp để đối chiếu</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Sản phẩm đầu ra và tiêu chí đánh giá</h3>
+  <div class="tbl">
+    <table>
+      <thead><tr><th>Mức</th><th>Tiêu chí</th></tr></thead>
+      <tbody>
+        <tr><td><b>Tốt</b></td><td>Nộp đủ 100% sản phẩm đúng hạn, chất lượng dùng được ngay; thành thạo ≥ 5/6 công cụ; hồ sơ số đầy đủ, khoa học; môi trường lớp đạt ≥ 90% tiêu chí</td></tr>
+        <tr><td><b>Khá</b></td><td>Nộp đủ sản phẩm, ≤ 02 nội dung cần chỉnh sửa; sử dụng được 4/6 công cụ; môi trường lớp đạt ≥ 75% tiêu chí</td></tr>
+        <tr><td><b>Đạt</b></td><td>Nộp đủ sản phẩm bắt buộc; sử dụng được ≥ 3/6 công cụ với sự hỗ trợ; môi trường lớp đạt ≥ 60% tiêu chí</td></tr>
+        <tr><td><b>Chưa đạt</b></td><td>Thiếu sản phẩm bắt buộc hoặc không thực hiện chuyển đổi hồ sơ số</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p><b>Kiểm tra, giám sát:</b> kiểm tra hồ sơ trên hệ thống ngày 25 hằng tháng, trên bản số, không yêu cầu nộp bản in · dự giờ hoạt động có tích hợp STEAM 02 hoạt động/giáo viên/năm · chấm chéo môi trường nhóm lớp tháng 10/2026 và tháng 3/2027 · sơ kết tháng 01/2027, tổng kết tháng 5/2027.</p>
+</section>
+
+<!-- ============ LICH 5 BUOI ============ -->
+<section id="lich">
+  <h2>Phần thứ hai · Lịch 05 buổi tập huấn tập trung</h2>
+  <p class="sub">Tháng 8/2026. Mỗi buổi 7h30–11h00 hoặc 13h30–17h00, điều chỉnh theo lịch của nhà trường.</p>
+
+  <div class="tl">
+    <div class="tl-item">
+      <span class="tl-when">BUỔI 1</span>
+      <div>
+        <h4>Quán triệt văn bản mới và rà soát, cắt giảm hồ sơ</h4>
+        <p><b>15′</b> Khai mạc, nêu mục tiêu — Hiệu trưởng · <b>40′</b> Quán triệt 06 điểm mới — Đ/c Huyền · <b>45′</b> Các tổ rà soát hồ sơ trên bảng A3, phân loại GIỮ/GỘP/BỎ · <b>30′</b> Báo cáo và thống nhất danh mục · <b>20′</b> Phổ biến kế hoạch 5 buổi, kiểm tra tài khoản Gmail của 100% giáo viên · <b>20′</b> Giao việc, giải đáp</p>
+        <span class="out">Ra khỏi buổi · <b>Bảng rà soát; dự thảo Danh mục hồ sơ; danh sách GV cần xử lý tài khoản trước buổi 4</b></span>
+      </div>
+    </div>
+    <div class="tl-item">
+      <span class="tl-when">BUỔI 2</span>
+      <div>
+        <h4>Môi trường nhóm lớp theo hướng STEAM</h4>
+        <p><b>10′</b> Nhắc lại nguyên tắc: tích hợp, không tổ chức riêng, không mua sắm tốn kém · <b>40′</b> Báo cáo nguyên tắc thiết kế môi trường mở, 4 khu vực, nguyên vật liệu mở, trưng bày quá trình · <b>30′</b> Tham quan lớp điểm · <b>60′</b> Mỗi tổ cải tạo 01 lớp · <b>30′</b> Trưng bày, chấm chéo theo bộ tiêu chí · <b>20′</b> Thống nhất bộ tiêu chí, giao lịch hoàn thiện</p>
+        <span class="out">Ra khỏi buổi · <b>04 lớp mẫu hoàn thành; bộ tiêu chí đánh giá môi trường; ảnh trước – sau</b></span>
+      </div>
+    </div>
+    <div class="tl-item">
+      <span class="tl-when">BUỔI 3</span>
+      <div>
+        <h4>Kế hoạch giáo dục từng độ tuổi và 04 chuyên đề</h4>
+        <p><b>30′</b> Khung KHGD 4 cấp, cách tích hợp STEAM, quy trình 5 bước và mô hình 5E · <b>20′</b> Định hướng Chương trình thí điểm · <b>70′</b> 4 nhóm độ tuổi xây dựng KHGD trên file dùng chung · <b>30′</b> Báo cáo chéo · <b>40′</b> 04 chuyên đề, mỗi chuyên đề 10′ · <b>20′</b> Chốt phân công</p>
+        <span class="out">Ra khỏi buổi · <b>04 bộ khung KHGD năm; ngân hàng ≥ 20 ý tưởng; phân công 04 chuyên đề</b></span>
+      </div>
+    </div>
+    <div class="tl-item">
+      <span class="tl-when">BUỔI 4</span>
+      <div>
+        <h4>Hồ sơ số, Google Biểu mẫu, Canva và mã QR</h4>
+        <p>Buổi thực hành máy. <b>10′</b> Kiểm tra thiết bị, chia cặp, phổ biến phương án 4G · <b>15′</b> Quán triệt hệ thống chính thức và nguyên tắc “dữ liệu nhập một lần, dùng nhiều lần” · <b>35′</b> Thao tác trên Cổng giáo dục số và cây thư mục · <b>45′</b> Google Biểu mẫu: tạo phiếu, gửi thử, xem bảng tổng hợp tự động, tạo QR · <b>45′</b> Canva: poster giáo viên và bảng danh sách trẻ, chèn QR, tải file in · <b>20′</b> Trưng bày, hỗ trợ · <b>10′</b> Giao việc</p>
+        <span class="out">Ra khỏi buổi · <b>Mỗi lớp 01 biểu mẫu + QR, 01 poster GV, 01 bảng danh sách trẻ</b></span>
+      </div>
+    </div>
+    <div class="tl-item">
+      <span class="tl-when">BUỔI 5</span>
+      <div>
+        <h4>AI hỗ trợ chuyên môn, tuyên truyền, thảo luận và thống nhất</h4>
+        <p><b>10′</b> Phổ biến 05 nguyên tắc dùng AI an toàn · <b>35′</b> Gemini – truyện tranh · <b>30′</b> Suno – phổ nhạc · <b>30′</b> AI + PowerPoint · <b>30′</b> Gem – trợ lý soạn kế hoạch · <b>25′</b> Công tác tuyên truyền · <b>40′</b> Thảo luận và thống nhất · <b>20′</b> Kết luận, ký cam kết, bế mạc</p>
+        <span class="out">Ra khỏi buổi · <b>Sản phẩm AI của từng tổ; Biên bản thống nhất có chữ ký toàn thể</b></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CA NAM HOC ============ -->
+<section id="namhoc">
+  <h2>Lộ trình cả năm học</h2>
+  <p class="sub">Đợt tháng 8 chỉ làm khung và làm mẫu. Phần hoàn thiện dàn ra tháng 9 – 10 trong sinh hoạt tổ, tránh quá tải đầu năm.</p>
+  <div class="tbl">
+    <table>
+      <thead><tr><th>Tháng</th><th>Trọng tâm</th><th>Kết quả</th><th>Chịu trách nhiệm</th></tr></thead>
+      <tbody>
+        <tr><td class="n">8/2026</td><td>Rà soát cắt giảm hồ sơ · 05 buổi tập huấn · hoàn thiện môi trường lớp</td><td>Danh mục hồ sơ; sản phẩm 05 buổi; các lớp sẵn sàng đón trẻ</td><td>Đ/c Huyền</td></tr>
+        <tr><td class="n">9/2026</td><td>Khai giảng · áp dụng KHGD mới · họp phụ huynh đầu năm · chuyển hoàn toàn sang hồ sơ số</td><td>100% lớp nộp hồ sơ trên bản số; biên bản họp PH; danh sách phụ huynh đồng hành</td><td>Tổ trưởng</td></tr>
+        <tr><td class="n">10/2026</td><td>Chấm chéo môi trường lần 1 · chuyên đề <b>Lấy trẻ làm trung tâm</b> · bắt đầu hồ sơ cá nhân trẻ</td><td>Kết quả chấm chéo; 04 hoạt động minh hoạ; mẫu hồ sơ cá nhân trẻ</td><td>Đ/c Huyền, tổ trưởng</td></tr>
+        <tr><td class="n">11/2026</td><td>Chuyên đề <b>Phối hợp gia đình – nhà trường – cộng đồng</b> · hoạt động trải nghiệm có phụ huynh</td><td>01 hoạt động trải nghiệm mỗi khối có phụ huynh tham gia</td><td>PHT nuôi dưỡng</td></tr>
+        <tr><td class="n">12/2026</td><td>Chuyên đề <b>Hỗ trợ trẻ 5 tuổi chuyển tiếp</b> · tuyên truyền không dạy trước lớp 1 · rà soát phổ cập</td><td>Kế hoạch chuyển tiếp; bài tuyên truyền gửi phụ huynh</td><td>Tổ trưởng khối 5 tuổi</td></tr>
+        <tr><td class="n">01/2027</td><td>Sơ kết học kỳ I · đánh giá việc thực hiện hồ sơ số · bổ sung ngân hàng ý tưởng</td><td>Báo cáo sơ kết; điều chỉnh Phương án</td><td>Đ/c Huyền</td></tr>
+        <tr><td class="n">02/2027</td><td>Chuyên đề <b>Xã giúp xã, trường giúp trường</b> · sinh hoạt liên trường lần 1</td><td>Biên bản phân công hỗ trợ; thư mục học liệu dùng chung</td><td>Hiệu trưởng, Đ/c Huyền</td></tr>
+        <tr><td class="n">3/2027</td><td>Chấm chéo môi trường lần 2 · giao lưu với trường tiểu học · bồi dưỡng CNTT vòng 2</td><td>Kết quả chấm chéo; 100% GV đạt ≥ 4/6 kỹ năng</td><td>Đ/c Huyền</td></tr>
+        <tr><td class="n">4/2027</td><td>Rà soát minh chứng Chuẩn nghề nghiệp · hoàn thiện hồ sơ cá nhân trẻ</td><td>Bộ minh chứng của từng giáo viên</td><td>Tổ trưởng</td></tr>
+        <tr><td class="n">5/2027</td><td>Tổng kết · đánh giá sự phát triển của trẻ · bàn giao trẻ 5 tuổi cho tiểu học</td><td>Báo cáo tổng kết; hồ sơ bàn giao trẻ</td><td>Đ/c Huyền</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ============ KICH BAN MUC 3 ============ -->
+<section id="kichban">
+  <h2>Phần thứ ba · Kịch bản trình bày mục 3 (45 phút)</h2>
+  <p class="sub">Phần chữ nghiêng trong ngoặc kép là lời dẫn mẫu, có thể đọc gần như nguyên văn hoặc diễn đạt lại.</p>
+
+  <h3>Chuẩn bị trước khi lên trình bày</h3>
+  <ul class="check">
+    <li>Slide 12–15 trang, không quá 5 dòng mỗi trang, cỡ chữ ≥ 24</li>
+    <li>Bản in Danh mục hồ sơ theo Điều 21, phát mỗi tổ 01 bản</li>
+    <li>Bảng rà soát GIỮ/GỘP/BỎ khổ A3 × 04 và bút dạ</li>
+    <li>Ảnh mẫu môi trường nhóm lớp, 10–12 ảnh, chiếu chứ không in</li>
+    <li>Máy chiếu đã thử, file đã mở sẵn</li>
+    <li class="hot"><b>01 truyện tranh và 01 bài hát AI làm sẵn</b> — để dành mở đầu phần công nghệ</li>
+  </ul>
+
+  <h3>Mở đầu, đặt vấn đề · 4 phút</h3>
+  <div class="script">
+    <p class="who">Đ/c Huyền</p>
+    <p>“Kính thưa đồng chí Hiệu trưởng, thưa toàn thể hội nghị.</p>
+    <p>Trước khi đi vào nội dung, tôi xin thông tin để cả hội nghị nắm: cách đây đúng hai ngày, ngày 12 tháng 8 năm 2026, Bộ Giáo dục và Đào tạo đã ban hành <b>Công văn số 5385 hướng dẫn thực hiện nhiệm vụ giáo dục mầm non năm học 2026 – 2027</b>. Cùng với đó, từ ngày mai — ngày 15 tháng 8 — <b>Thông tư 51 năm 2026 có hiệu lực, trường mầm non chuyển về do Ủy ban nhân dân cấp xã quản lý</b>.</p>
+    <p>Tôi nói điều này ngay từ đầu vì có những nội dung trong đề cương chúng ta chuẩn bị từ trước <b>cần phải điều chỉnh cho đúng với văn bản mới</b>. Tôi sẽ nêu rõ chỗ nào phải điều chỉnh.</p>
+    <p>Nội dung tôi trình bày hôm nay gồm 6 phần, và tôi xin phép thêm một phần đứng trước tất cả — đó là <b>rà soát, cắt giảm hồ sơ sổ sách</b>. Bởi vì đây là việc Bộ yêu cầu có mốc thời gian cứng, và tôi tin đây cũng là việc các cô mong nhất.”</p>
+  </div>
+
+  <h3>Quán triệt 06 điểm mới · 10 phút</h3>
+  <p>Mỗi điểm khoảng 1 phút 30 giây, luôn nói theo công thức <b>Văn bản nói gì → Ta phải đổi cái gì</b>.</p>
+  <div class="script">
+    <p class="who">Điểm mới 1 · STEAM tích hợp</p>
+    <p>“Công văn 5385 ghi rất rõ: STEAM, STEM thực hiện <b>theo hướng tích hợp, không tổ chức thành hoạt động riêng</b>. Nghĩa là từ năm học này, chúng ta <b>không xếp ‘tiết STEAM’ trên thời khoá biểu nữa</b>. STEAM nằm trong giờ chơi ở các góc, trong hoạt động ngoài trời, trong hoạt động học bình thường. Cô nào đang lo phải soạn thêm một loại giáo án nữa thì yên tâm — ngược lại, chúng ta bỏ bớt.”</p>
+  </div>
+  <div class="script">
+    <p class="who">Điểm mới 2 · Không phát sinh hồ sơ</p>
+    <p>“Từ học kỳ I năm học này, <b>tuyệt đối không phát sinh hồ sơ ngoài quy định của Bộ</b>. Cắt giảm triệt để sổ sách, báo cáo trùng lặp, hình thức. Đây là câu chữ của Bộ, không phải tôi nói. Nên việc đầu tiên hôm nay chúng ta làm là <b>ngồi rà lại xem hiện nay các cô đang phải làm những sổ gì, cái nào bỏ được thì bỏ</b>.”</p>
+  </div>
+  <div class="script">
+    <p class="who">Điểm mới 3 · Quản trị dựa trên dữ liệu</p>
+    <p>“Bộ yêu cầu chuyển từ quản lý theo hồ sơ sang <b>quản trị dựa trên dữ liệu</b>, với nguyên tắc <b>‘dữ liệu nhập một lần, dùng nhiều lần’</b>. Nghĩa là số liệu về trẻ, về đội ngũ nhập một lần vào hệ thống, sau đó báo cáo nào cần thì trích ra, <b>không bắt các cô kê khai lại từ đầu cho từng báo cáo</b> như trước nữa.”</p>
+  </div>
+  <div class="script">
+    <p class="who">Điểm mới 4 · Hồ sơ điện tử do Sở quy định</p>
+    <p>“Đây là điểm tôi phải nói thật rõ để tránh làm sai. Điều 21 Điều lệ trường mầm non quy định: hồ sơ điện tử thay hồ sơ giấy <b>theo lộ trình</b>, và <b>việc quản lý hồ sơ điện tử do Sở Giáo dục và Đào tạo quy định</b> theo chuẩn dữ liệu của Bộ. Vậy nên hệ thống chính thức của chúng ta là <b>Cổng giáo dục số Nghệ An</b> và các phần mềm ngành đang triển khai, chứ không phải Google Drive. Drive chúng ta vẫn dùng, nhưng chỉ để làm <b>kho học liệu và chỗ làm việc chung</b>, không thay được hồ sơ của ngành. Tôi đề nghị đồng chí Hiệu trưởng cho phép tôi và đồng chí phụ trách công nghệ liên hệ Sở để xin văn bản quy định cụ thể trước khi ta ban hành quy chế.”</p>
+  </div>
+  <div class="script">
+    <p class="who">Điểm mới 5 · UBND xã quản lý</p>
+    <p>“Từ ngày 15 tháng 8 này, trường ta do <b>Ủy ban nhân dân cấp xã quản lý</b>, Phòng Văn hoá – Xã hội tham mưu. Kế hoạch, báo cáo của trường sẽ trình theo đầu mối mới. Đây cũng là lý do phong trào <b>‘Xã giúp xã, trường giúp trường’</b> năm nay rất đúng thời điểm.”</p>
+  </div>
+  <div class="script">
+    <p class="who">Điểm mới 6 · Chuẩn nghề nghiệp mới</p>
+    <p>“Thông tư 28 năm 2026 quy định Chuẩn nghề nghiệp giáo viên mầm non, trong đó <b>có tiêu chuẩn về ứng dụng công nghệ</b>. Cho nên phần tập huấn công nghệ thông tin hôm nay <b>không phải là việc làm thêm</b> — nó chính là minh chứng để các cô đánh giá chuẩn nghề nghiệp cuối năm.”</p>
+  </div>
+  <div class="script">
+    <p class="who">Chốt phần này</p>
+    <p>“Sáu điểm trên, tôi tóm lại một câu: <b>năm nay Bộ yêu cầu làm ít hồ sơ hơn, nhưng làm thật hơn</b>. Và đó cũng là tinh thần của toàn bộ kế hoạch tôi trình bày sau đây.”</p>
+  </div>
+
+  <h3>Rà soát, cắt giảm hồ sơ · 5 phút</h3>
+  <div class="script">
+    <p class="who">Đ/c Huyền · chiếu slide danh mục hồ sơ theo Điều 21</p>
+    <p>“Các cô nhìn dòng cuối cùng: <b>hồ sơ của giáo viên chỉ có ba loại</b>. Ngoài ba loại này, nếu lâu nay tổ hoặc trường có yêu cầu thêm sổ gì, biểu mẫu gì — chúng ta rà lại và bỏ. Tôi đề nghị mỗi tổ nhận một bảng A3, ghi hết ra những gì các cô đang phải làm, rồi ta cùng phân loại: <b>giữ – gộp – bỏ</b>. Kết quả sẽ thành <b>Danh mục hồ sơ năm học 2026 – 2027</b> có chữ ký của đồng chí Hiệu trưởng, để các cô yên tâm là không ai được yêu cầu thêm nữa.”</p>
+  </div>
+
+  <h3>Môi trường nhóm lớp · 6 phút</h3>
+  <div class="script">
+    <p class="who">Đ/c Huyền · chiếu ảnh mẫu trong lúc nói</p>
+    <p>“Về môi trường lớp, tôi xin nhấn ba điều để tránh làm sai và tránh tốn kém.</p>
+    <p><b>Thứ nhất — không phải trang trí cho đẹp mắt người lớn, mà là sắp xếp để trẻ tự làm được.</b> Trẻ tự lấy, tự cất, tự chọn. Rổ đồ để vừa tầm với của trẻ, có ký hiệu bằng hình ảnh vì trẻ chưa đọc được chữ.</p>
+    <p><b>Thứ hai — nguyên vật liệu mở là chính.</b> Nắp chai, ống hút, que kem, hộp giấy, sỏi, vỏ ngao, tre nứa, vải vụn. Đây là thứ chúng ta có sẵn, không tốn tiền, mà lại kích thích trẻ sáng tạo hơn đồ chơi mua sẵn nhiều lần. Tôi đề nghị mỗi lớp lập một <b>kho nguyên vật liệu mở</b>, huy động cả phụ huynh cùng góp.</p>
+    <p><b>Thứ ba — trưng bày quá trình, không chỉ trưng bày sản phẩm đẹp.</b> Treo cả bản vẽ nháp của trẻ, cả sản phẩm chưa hoàn thiện, cả ảnh trẻ đang loay hoay làm. Vì chương trình mới đánh giá <b>sự tiến bộ của từng trẻ</b>, chứ không so trẻ này với trẻ kia.</p>
+    <p>Bốn khu vực tối thiểu mỗi lớp cần có: <b>khám phá khoa học – chế tạo lắp ghép – nghệ thuật sáng tạo – toán và thư viện</b>. Ngoài lớp thì tận dụng vườn rau, khu cát nước, góc thiên nhiên.</p>
+    <p>Cách làm: chúng ta sẽ đi xem lớp điểm của cô ………, sau đó mỗi tổ cùng nhau cải tạo một lớp ngay tại chỗ, rồi các lớp còn lại làm theo. Có bộ tiêu chí để các tổ chấm chéo nhau, không phải Ban giám hiệu đi chấm.”</p>
+  </div>
+
+  <h3>Kế hoạch giáo dục từng độ tuổi · 7 phút</h3>
+  <div class="script">
+    <p class="who">Đ/c Huyền</p>
+    <p>“Về kế hoạch giáo dục, năm nay chúng ta làm theo cách <b>mỗi độ tuổi có một bộ khung chung của trường</b>, các cô chỉ điều chỉnh cho phù hợp lớp mình, <b>không phải mỗi người soạn lại từ đầu</b>.</p>
+    <p>Bốn cấp kế hoạch: <b>năm – chủ đề/tháng – tuần – ngày</b>. Mục tiêu bám Chương trình giáo dục mầm non theo từng độ tuổi và năm lĩnh vực phát triển.</p>
+    <p>Còn STEAM tích hợp vào đâu? Tôi lấy ví dụ cụ thể cho dễ hình dung. Chủ đề ‘Gia đình’, hoạt động ngoài trời, trời mưa. Thay vì cô nói ‘các con vào lớp’, ta hỏi trẻ: <b>‘Làm thế nào để cái nhà của búp bê không bị dột?’</b> Trẻ nghĩ, trẻ tưởng tượng, trẻ chọn vật liệu, trẻ làm, rồi ta đổ nước thử — chỗ nào dột thì trẻ sửa lại. Đó chính là quy trình năm bước: <b>Hỏi – Tưởng tượng – Lập kế hoạch – Thực hiện – Cải tiến</b>. Không cần thêm tiết nào, không cần mua gì.</p>
+    <p>Chương trình mầm non mới đang thí điểm ở 510 trường trên cả nước có một tinh thần mà tôi rất muốn các cô nắm sớm: <b>không dừng ở việc trẻ biết gì, mà là trẻ làm được gì và trẻ phản ứng thế nào trước tình huống thật</b>. Giáo viên chuyển từ người truyền đạt sang <b>người thiết kế môi trường và đồng hành cùng trẻ</b>.</p>
+    <p>Chúng ta sẽ chia bốn nhóm theo độ tuổi, làm ngay tại buổi tập huấn, và xây dựng chung một <b>ngân hàng ít nhất 20 ý tưởng hoạt động tích hợp</b> để ai cũng dùng được.”</p>
+  </div>
+
+  <h3>Hồ sơ số · 5 phút</h3>
+  <div class="script">
+    <p class="who">Đ/c Huyền</p>
+    <p>“Chủ trương của chúng ta là <b>hồ sơ số, không làm hồ sơ giấy</b>. Tôi xin nói rõ ba việc.</p>
+    <p><b>Một là làm đúng hệ thống.</b> Hệ thống chính thức là <b>Cổng giáo dục số Nghệ An</b>. Nghệ An mình là một trong những tỉnh làm nền tảng số giáo dục sớm nhất cả nước, có đồng bộ dữ liệu từ trường lên Sở, có chữ ký số. Ta dùng cái sẵn có của ngành, không tự dựng hệ thống riêng.</p>
+    <p><b>Hai là Google Drive dùng làm gì.</b> Dùng làm kho học liệu và chỗ làm việc chung: kế hoạch, giáo án, hình ảnh hoạt động, tài liệu tham khảo. Có cây thư mục và quy tắc đặt tên thống nhất để ai vào cũng tìm được. Nhưng xin nhắc lại: <b>Drive không thay thế hồ sơ của ngành</b>.</p>
+    <p><b>Ba là quy trình duyệt.</b> Cô nộp trên bản số — tổ trưởng nhận xét ngay trên file — Ban giám hiệu duyệt, ghi ngày duyệt. <b>Không in ra giấy. Không ký sổ.</b> Kiểm tra hồ sơ hằng tháng cũng kiểm tra trên bản số.</p>
+    <p>Trước mắt, trong khi chờ văn bản hướng dẫn cụ thể của Sở, chúng ta làm phần chắc chắn đúng: <b>rà soát cắt giảm hồ sơ và tập thao tác trên hệ thống</b>. Còn hồ sơ nào bắt buộc phải có bản giấy ký đóng dấu theo quy định thì vẫn giữ, tôi sẽ có danh mục riêng.”</p>
+  </div>
+
+  <h3>Bốn chuyên đề · 6 phút</h3>
+  <div class="script">
+    <p class="who">Đ/c Huyền</p>
+    <p>“Bốn chuyên đề năm nay, tôi chỉ nêu trọng tâm và việc phải làm, phần triển khai chi tiết ta để vào các buổi sinh hoạt chuyên môn hằng tháng cho thấm.</p>
+    <p>Chuyên đề <b>Phối hợp gia đình – nhà trường – cộng đồng</b>: đây là một trong sáu nhóm nhiệm vụ trọng tâm của năm học. Trọng tâm là <b>kéo phụ huynh vào cùng làm với trẻ</b>, chứ không chỉ thông báo cho phụ huynh biết.</p>
+    <p>Chuyên đề <b>Lấy trẻ làm trung tâm</b>: trọng tâm năm nay là <b>cho trẻ được lựa chọn, được thử, được sai, được làm lại</b>; và cô <b>quan sát ghi chép sự tiến bộ của từng trẻ</b> — ta sẽ làm hồ sơ cá nhân cho mỗi trẻ.</p>
+    <p>Chuyên đề <b>Hỗ trợ trẻ 5 tuổi chuyển tiếp</b>: Bộ nhấn rất mạnh — <b>không dạy trước chương trình lớp Một</b>. Việc của chúng ta là chuẩn bị tâm thế, kỹ năng tự phục vụ, khả năng tập trung; và <b>tuyên truyền để phụ huynh đừng cho con đi học trước</b>.</p>
+    <p>Chuyên đề <b>Xã giúp xã, trường giúp trường</b>: từ mai trường ta thuộc quản lý của Ủy ban xã, nên phong trào này rất thuận. Cách hỗ trợ hiệu quả và ít tốn kém nhất là <b>sinh hoạt chuyên môn liên trường và chia sẻ kho học liệu số dùng chung</b>.”</p>
+  </div>
+
+  <h3>Công tác tuyên truyền · 2 phút</h3>
+  <div class="script">
+    <p class="who">Đ/c Huyền</p>
+    <p>“Về tuyên truyền, mỗi lớp duy trì một kênh — góc tuyên truyền tại lớp và nhóm Zalo lớp. Nội dung trọng tâm năm nay: <b>không dạy trước chương trình lớp Một</b>, phòng chống tai nạn thương tích và xâm hại trẻ em, an toàn thực phẩm, và hướng dẫn phụ huynh cho trẻ dùng thiết bị số an toàn.</p>
+    <p>Một điều tôi đề nghị hội nghị thống nhất thành quy định: <b>trước khi đăng bất kỳ hình ảnh nào của trẻ, phải có phiếu đồng ý của phụ huynh</b>. Không đăng địa chỉ, số điện thoại, hoàn cảnh gia đình trẻ. Không đăng ảnh trẻ lúc khóc, lúc ăn ngủ chưa chỉnh tề. Tôi sẽ làm mẫu phiếu này bằng Google Biểu mẫu để các cô gửi phụ huynh ký ngay trong buổi họp đầu năm.”</p>
+  </div>
+
+  <h3>Ứng dụng CNTT – AI · 5 phút</h3>
+  <p><b>Mở đầu bằng sản phẩm, không mở đầu bằng lời.</b> Nói: “Phần cuối cùng, tôi xin phép không nói trước. Mời hội nghị xem cái này.” Sau đó chiếu 01 truyện tranh khoảng 30 giây và bật 01 bài hát khoảng 45 giây.</p>
+  <div class="script">
+    <p class="who">Đ/c Huyền</p>
+    <p>“Thưa các cô, truyện tranh vừa rồi tôi làm hết <b>4 phút</b>. Bài hát vừa rồi làm hết <b>3 phút</b>. Không tốn một đồng nào.</p>
+    <p>Đó là lý do năm nay chúng ta tập huấn sáu công cụ: <b>Google Biểu mẫu</b> thu thông tin phụ huynh đầu năm, tự cộng, tự ra bảng, không phải ngồi nhập tay; <b>Gemini</b> làm truyện tranh theo chủ đề và truyện dạy kỹ năng cho trẻ; <b>Suno</b> phổ nhạc cho bài thơ, cho lời bài hát mình tự nghĩ; <b>Canva</b> làm poster giáo viên, bảng danh sách trẻ, gắn mã QR; <b>AI làm bài trình chiếu</b> dùng cho họp phụ huynh đầu năm; và <b>trợ lý riêng trên Gemini</b> — tôi sẽ nạp sẵn Chương trình giáo dục mầm non và khung kế hoạch của trường mình vào, để nó gợi ý mục tiêu và hoạt động đúng độ tuổi.</p>
+    <p>Cách học: <b>mỗi cô một máy hoặc hai cô một máy, làm luôn tại chỗ, làm xong mang sản phẩm về dùng.</b> Cô nào chưa quen sẽ có một đồng chí cốt cán ngồi kèm riêng. Tôi cũng sẽ quay lại toàn bộ thao tác thành video để các cô xem lại bất cứ lúc nào.</p>
+    <p>Có ba điều tuyệt đối phải nhớ khi dùng những công cụ này: <b>không nhập thông tin cá nhân của trẻ và gia đình; không tải ảnh thật của trẻ lên; và cái gì máy làm ra thì cô phải đọc lại, duyệt lại trước khi dùng với trẻ.</b> Máy chỉ đỡ tay cho cô, cô vẫn là người quyết định.</p>
+    <p>Và xin nhắc lại: đây chính là <b>minh chứng cho tiêu chuẩn ứng dụng công nghệ trong Chuẩn nghề nghiệp</b> — làm hôm nay, cuối năm có cái để nộp.”</p>
+  </div>
+
+  <h3>Chốt mục 3 · 1 phút</h3>
+  <div class="script">
+    <p class="who">Đ/c Huyền</p>
+    <p>“Tôi xin tóm lại toàn bộ nội dung bằng ba câu:</p>
+    <p><b>Một — bỏ bớt hồ sơ, làm hồ sơ trên bản số, đúng hệ thống của ngành.</b></p>
+    <p><b>Hai — STEAM tích hợp vào việc mình vẫn làm hằng ngày, không thêm tiết, không tốn tiền.</b></p>
+    <p><b>Ba — mỗi buổi tập huấn ra một sản phẩm mang về dùng được ngay.</b></p>
+    <p>Toàn bộ có 5 buổi, làm trong tháng 8. Kế hoạch chi tiết từng buổi tôi đã in gửi các đồng chí. Xin hết. Bây giờ tôi xin chuyển sang mục 4 — thảo luận và thống nhất.”</p>
+  </div>
+</section>
+
+<!-- ============ MUC 4 ============ -->
+<section id="thongnhat">
+  <h2>Mục 4 · Thảo luận, thống nhất (40 phút)</h2>
+
+  <div class="script">
+    <p class="who">Mở đầu · đặt nguyên tắc thảo luận · 3 phút</p>
+    <p>“Thưa hội nghị, phần thảo luận này tôi mong chúng ta <b>quyết được việc chứ không chỉ góp ý chung chung</b>. Vì vậy tôi xin đề nghị: chúng ta thảo luận theo <b>06 vấn đề cụ thể</b>, mỗi vấn đề tôi nêu ra để hội nghị cho ý kiến rồi chốt luôn. Ai có ý kiến khác xin nói thẳng, vì chốt xong là cả năm làm theo. Đồng chí thư ký ghi biên bản, cuối buổi ta cùng ký.”</p>
+  </div>
+
+  <h3>Sáu vấn đề đưa ra thống nhất</h3>
+  <div class="tbl">
+    <table>
+      <thead><tr><th>Vấn đề</th><th>Câu hỏi gợi mở</th><th>Phương án chốt</th></tr></thead>
+      <tbody>
+        <tr><td><b>1. Danh mục hồ sơ</b></td><td>“Xin các tổ nêu: hiện nay các cô đang phải làm những sổ gì, biểu mẫu gì ngoài ba loại theo Điều lệ? Cái nào các cô thấy trùng lặp, mất thời gian mà không giúp gì cho trẻ?”</td><td>04 tổ nộp bảng rà soát trước ngày ……; Hiệu trưởng ký ban hành Danh mục. Từ HK I không ai được yêu cầu thêm hồ sơ ngoài danh mục</td></tr>
+        <tr><td><b>2. Nền tảng hồ sơ số</b></td><td>“Chúng ta thống nhất dùng Cổng giáo dục số của tỉnh làm hệ thống chính thức, Drive chỉ làm kho học liệu. Hội nghị có ý kiến gì không? Đồng chí nào đã có chữ ký số rồi?”</td><td>Chốt hệ thống ngành là chính thức. Giao Hiệu trưởng và đ/c CNTT liên hệ Sở xin quy định trước ngày ……. Chưa ban hành Quy chế hồ sơ số tới khi có hướng dẫn</td></tr>
+        <tr><td><b>3. Bỏ tiết STEAM riêng</b></td><td>“Theo công văn mới, STEAM tích hợp chứ không tổ chức riêng. Vậy ta thống nhất bỏ tiết STEAM khỏi thời khoá biểu, đúng không ạ? Các cô có vướng gì không?”</td><td>Chốt bỏ tiết STEAM riêng từ năm học này; đưa vào khung KHGD của 04 độ tuổi</td></tr>
+        <tr><td><b>4. Mức yêu cầu CNTT</b></td><td>“Sáu công cụ là nhiều. Tôi đề xuất bắt buộc thành thạo 4 trên 6, hai cái còn lại khuyến khích. Các cô thấy mức này có vừa sức không? Cô nào thấy mình cần được kèm riêng xin giơ tay để tôi phân công người kèm.”</td><td>Chốt mức bắt buộc 4/6. Lập danh sách ghép cặp cốt cán – giáo viên ngay tại chỗ</td></tr>
+        <tr><td><b>5. Bảo vệ hình ảnh trẻ</b></td><td>“Tôi đề nghị thành quy định của trường: không đăng ảnh trẻ khi chưa có phiếu đồng ý của phụ huynh; không đăng thông tin cá nhân; không đăng ảnh trẻ trong tình huống nhạy cảm. Hội nghị có bổ sung gì không?”</td><td>Chốt thành quy định bắt buộc; phát phiếu đồng ý cho 100% phụ huynh tại buổi họp đầu năm tháng 9</td></tr>
+        <tr><td><b>6. Lịch 05 buổi</b></td><td>“Xin hội nghị cho ý kiến về lịch 05 buổi: ngày nào thuận, ngày nào vướng? Và các tổ trưởng nhận phần việc của tổ mình.”</td><td>Chốt lịch cụ thể; chốt lớp điểm; chốt người phụ trách từng phần</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Xử lý các tình huống thường gặp</h3>
+  <div class="script">
+    <p class="who">Khi giáo viên lớn tuổi nói “tôi không làm được máy tính đâu”</p>
+    <p>“Em xin không yêu cầu cô làm được ngay hôm nay. Em phân công cô ……… ngồi cạnh kèm cô, và toàn bộ thao tác em quay video để cô xem lại ở nhà. Mức bắt buộc chỉ là 4 trên 6 thôi, và cô có cả năm để làm quen chứ không phải một buổi.”</p>
+  </div>
+  <div class="script">
+    <p class="who">Khi có ý kiến “bỏ hồ sơ giấy, thanh tra về lấy gì trình?”</p>
+    <p>“Đây là yêu cầu của Bộ trong Công văn 5385, chuyển sang quản trị dựa trên dữ liệu — thanh tra, kiểm tra cũng chuyển theo hướng đó. Ta có Danh mục hồ sơ do Hiệu trưởng ký, có dữ liệu trên hệ thống ngành, có sao lưu hằng tháng. Còn hồ sơ nào bắt buộc bản giấy theo quy định thì ta vẫn giữ đủ.”</p>
+  </div>
+  <div class="script">
+    <p class="who">Khi có ý kiến “làm STEAM phải mua bộ đồ dùng mấy triệu”</p>
+    <p>“Em xin khẳng định là không. Tinh thần là nguyên vật liệu mở, tái chế, sẵn có ở địa phương. Chỗ nào cần mua thì chỉ là rổ đựng, giá kệ. Ta huy động cả phụ huynh cùng góp nguyên vật liệu — đó cũng chính là nội dung chuyên đề phối hợp với gia đình.”</p>
+  </div>
+  <div class="script">
+    <p class="who">Khi có ý kiến “nhiều việc quá, đầu năm không kịp”</p>
+    <p>“Đợt tháng 8 ta chỉ làm khung và làm mẫu. Phần hoàn thiện dàn ra tháng 9, tháng 10 trong sinh hoạt tổ. Và xin lưu ý là năm nay ta <b>bỏ bớt</b> hồ sơ chứ không thêm — tổng lại là nhẹ hơn năm ngoái.”</p>
+  </div>
+  <p><b>Khi hội nghị im lặng, không ai phát biểu:</b> gọi đích danh theo tổ — “Xin mời tổ Mẫu giáo 5–6 tuổi cho ý kiến trước, vì khối các cô có thêm việc chuyển tiếp lên lớp 1”; hoặc hỏi câu đóng — “Tổ nào thấy lịch buổi 4 vướng thì giơ tay ạ?”</p>
+
+  <h3>Kết luận mục 4 · 5 phút</h3>
+  <div class="script">
+    <p class="who">Đ/c Huyền</p>
+    <p>“Thưa hội nghị, chúng ta đã thống nhất 6 nội dung. Tôi xin nhắc lại để đồng chí thư ký ghi vào biên bản:</p>
+    <p><b>Một</b> — giao 04 tổ nộp bảng rà soát hồ sơ trước ngày ……, Hiệu trưởng ký ban hành Danh mục hồ sơ năm học.<br>
+    <b>Hai</b> — hệ thống hồ sơ số chính thức là Cổng giáo dục số Nghệ An; giao Hiệu trưởng và đồng chí ……… liên hệ Sở xin quy định trước ngày ……<br>
+    <b>Ba</b> — bỏ tiết STEAM riêng khỏi thời khoá biểu, tích hợp vào hoạt động hằng ngày.<br>
+    <b>Bốn</b> — mức bắt buộc về công nghệ thông tin là 4 trên 6 công cụ; danh sách ghép cặp kèm cặp đã lập xong.<br>
+    <b>Năm</b> — quy định bảo vệ hình ảnh và thông tin của trẻ có hiệu lực từ hôm nay.<br>
+    <b>Sáu</b> — lịch 05 buổi tập huấn: buổi 1 ngày ……, buổi 2 ngày ……, buổi 3 ngày ……, buổi 4 ngày ……, buổi 5 ngày ……</p>
+    <p>Đề nghị các đồng chí ký vào biên bản thống nhất. Xin cảm ơn hội nghị.”</p>
+  </div>
+  <p>Mời Hiệu trưởng phát biểu kết luận chỉ đạo.</p>
+</section>
+
+<!-- ============ 4 CHUYEN DE ============ -->
+<section id="chuyende">
+  <h2>Kịch bản chi tiết 04 chuyên đề</h2>
+  <p class="sub">Dùng cho sinh hoạt chuyên môn hằng tháng, mỗi chuyên đề 75 phút. Khung chung: quán triệt tinh gọn 20′ → hoạt động minh hoạ hoặc tình huống thảo luận 30′ → thống nhất cách làm, ra sản phẩm 25′.</p>
+
+  <h3>Phối hợp gia đình – nhà trường – cộng đồng · tháng 11/2026</h3>
+  <ul>
+    <li><b>Quán triệt (20′):</b> vì sao đây là 1 trong 6 nhóm nhiệm vụ trọng tâm; 03 mức độ phối hợp — <em>thông báo → tham gia → cùng quyết định</em>; ta đang ở mức nào.</li>
+    <li><b>Tình huống thảo luận (30′):</b> “Lớp có 5 phụ huynh không bao giờ đọc tin nhắn, không đi họp. Tổ ta làm gì?” Mỗi tổ đưa 03 cách, chọn 01 cách khả thi nhất.</li>
+    <li><b>Sản phẩm (25′):</b> kế hoạch phối hợp cả năm của từng lớp; danh sách “phụ huynh đồng hành” mỗi lớp ≥ 5 người; lịch mời phụ huynh tham gia hoạt động trải nghiệm cùng trẻ.</li>
+  </ul>
+
+  <h3>Xây dựng trường mầm non lấy trẻ làm trung tâm · tháng 10/2026</h3>
+  <ul>
+    <li><b>Quán triệt (20′):</b> rà soát theo bộ tiêu chí; trẻ được lựa chọn – được thử – được sai – được làm lại; đánh giá theo sự tiến bộ của từng trẻ.</li>
+    <li><b>Hoạt động minh hoạ (30′):</b> 01 hoạt động thật tại lớp, cả tổ dự và <b>quan sát theo phiếu</b> — trẻ được tự chọn mấy lần? cô nói bao nhiêu phút, trẻ làm bao nhiêu phút? cô hỏi bao nhiêu câu hỏi mở?</li>
+    <li><b>Sản phẩm (25′):</b> bảng tự đánh giá theo tiêu chí của từng lớp; mẫu hồ sơ cá nhân trẻ — ảnh khoảnh khắc học tập, sản phẩm, ghi chép tiến bộ về tình cảm – xã hội.</li>
+  </ul>
+
+  <h3>Hỗ trợ trẻ 5 tuổi trong giai đoạn chuyển tiếp · tháng 12/2026</h3>
+  <ul>
+    <li><b>Quán triệt (20′):</b> không dạy trước chương trình lớp Một. Nói rõ ranh giới — <em>làm quen chữ cái, nhận biết số lượng trong phạm vi Chương trình GDMN là ĐÚNG; dạy viết chữ, làm toán cộng trừ, giao bài tập về nhà là SAI</em>.</li>
+    <li><b>Thảo luận (30′):</b> “Phụ huynh nói: cô không dạy viết thì con tôi vào lớp 1 thua bạn. Ta trả lời thế nào?” Xây dựng <b>bộ câu trả lời mẫu</b> cho giáo viên.</li>
+    <li><b>Sản phẩm (25′):</b> kế hoạch chuyển tiếp khối 5 tuổi; bài tuyên truyền gửi phụ huynh; kế hoạch giao lưu với trường tiểu học trên địa bàn xã.</li>
+  </ul>
+
+  <h3>“Xã giúp xã, trường giúp trường” · tháng 02/2027</h3>
+  <ul>
+    <li><b>Quán triệt (20′):</b> bối cảnh mới — trường mầm non do UBND cấp xã quản lý từ 15/8/2026; ý nghĩa của hỗ trợ đồng nghiệp.</li>
+    <li><b>Thảo luận (30′):</b> lập bảng hai cột — <em>trường ta MẠNH cái gì để giúp bạn</em> / <em>trường ta YẾU cái gì cần được giúp</em>. Rất thật, không hình thức.</li>
+    <li><b>Sản phẩm (25′):</b> biên bản phân công hỗ trợ với đơn vị bạn; lịch sinh hoạt chuyên môn liên trường; thư mục học liệu số dùng chung liên trường.</li>
+  </ul>
+</section>
+
+<!-- ============ 6 CONG CU ============ -->
+<section id="congcu">
+  <h2>Hướng dẫn thực hành 06 công cụ</h2>
+  <div class="flag">
+    <span class="tag">Nguyên tắc chung</span>
+    Báo cáo viên làm mẫu một lần từ đầu đến cuối (chiếu màn hình, nói chậm); học viên làm theo từng bước; báo cáo viên đợi cả lớp bắt kịp mới sang bước tiếp; cốt cán đi từng bàn hỗ trợ. <b>Giao diện các công cụ có thể thay đổi</b> — hướng dẫn theo ý nghĩa của thao tác, không đọc vị trí nút.
+  </div>
+
+  <h3>Google Biểu mẫu — Phiếu thông tin trẻ đầu năm · 45 phút</h3>
+  <div class="tbl">
+    <table>
+      <thead><tr><th>Bước</th><th>Thao tác</th><th>Lưu ý khi hướng dẫn</th></tr></thead>
+      <tbody>
+        <tr><td class="n">1</td><td>Vào <code>drive.google.com</code> → Mới → Google Biểu mẫu</td><td>Đợi 100% học viên mở được rồi mới đi tiếp</td></tr>
+        <tr><td class="n">2</td><td>Đặt tên: <em>Phiếu thông tin trẻ – Lớp … – Năm học 2026-2027</em></td><td>Nhắc quy tắc đặt tên thống nhất</td></tr>
+        <tr><td class="n">3</td><td>Thêm câu hỏi: Họ tên trẻ (ngắn) · Ngày sinh (ngày) · Họ tên cha, mẹ (ngắn) · Số điện thoại (ngắn) · Trẻ có dị ứng thức ăn không (trắc nghiệm) · Ai đón trẻ hằng ngày (ngắn)</td><td>Bật nút <b>Bắt buộc</b> cho các câu quan trọng</td></tr>
+        <tr><td class="n">4</td><td>Cài đặt → bật <em>Giới hạn 1 phản hồi</em> nếu cần</td><td></td></tr>
+        <tr><td class="n">5</td><td>Gửi → biểu tượng liên kết → <em>Rút gọn URL</em> → Sao chép</td><td></td></tr>
+        <tr><td class="n">6</td><td>Tạo mã QR: dán liên kết vào công cụ tạo QR hoặc dùng ứng dụng QR trong Canva</td><td>Kết nối luôn sang phần Canva</td></tr>
+        <tr><td class="n">7</td><td>Tab <b>Câu trả lời</b> → biểu tượng Trang tính → xem bảng tổng hợp tự động</td><td><b>Đây là lúc học viên hào hứng nhất.</b> Nhấn mạnh: không phải nhập tay nữa</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p><b>Sản phẩm bắt buộc:</b> mỗi lớp 01 biểu mẫu, liên kết rút gọn và mã QR. <b>Áp dụng ngay:</b> phiếu thông tin trẻ; phiếu xin ý kiến phụ huynh về sử dụng hình ảnh trẻ; khảo sát nhu cầu bán trú.</p>
+
+  <h3>Gemini — Tạo truyện tranh (Story book) · 35 phút</h3>
+  <ol>
+    <li>Vào <code>gemini.google.com</code>, đăng nhập bằng Gmail.</li>
+    <li>Chọn công cụ tạo truyện tranh, sách truyện (Storybook) trong danh sách công cụ của Gemini.</li>
+    <li>Nhập yêu cầu — xem câu lệnh mẫu ở Phụ lục 1.</li>
+    <li>Chờ tạo xong, đọc lại toàn bộ, <b>kiểm tra nội dung có phù hợp lứa tuổi và thuần phong mỹ tục không</b>.</li>
+    <li>Yêu cầu chỉnh sửa nếu cần: <em>“Viết lại câu ở trang 4 cho đơn giản hơn, dùng từ trẻ 4 tuổi hiểu được”</em>.</li>
+    <li>Nghe chức năng đọc thành tiếng; chia sẻ hoặc tải về.</li>
+  </ol>
+  <div class="flag"><span class="tag">Nhắc học viên</span>Không đưa tên đầy đủ, thông tin thật của trẻ vào công cụ. Nếu muốn đặt tên nhân vật theo trẻ trong lớp thì chỉ dùng tên gọi ở nhà — bé Bi, bé Na.</div>
+  <p><b>Sản phẩm bắt buộc:</b> mỗi giáo viên 01 truyện tranh theo chủ đề tháng 9.</p>
+
+  <h3>Suno — Phổ nhạc cho bài hát · 30 phút</h3>
+  <ol>
+    <li>Vào <code>suno.com</code>, đăng nhập bằng tài khoản Google.</li>
+    <li>Chọn <b>Create</b>, bật chế độ tuỳ chỉnh (Custom) để dán được lời.</li>
+    <li>Dán lời bài hát hoặc bài thơ vào ô Lyrics.</li>
+    <li>Mô tả phong cách vào ô Style: <code>nhac thieu nhi Viet Nam, vui tuoi, giong nu trong treo, tiet tau vua phai, co tieng xylophone</code>.</li>
+    <li>Đặt tên bài → <b>Create</b> → chờ 1–2 phút → nghe thử.</li>
+    <li>Ưng ý thì tải file MP3, lưu vào thư mục học liệu của lớp trên Drive.</li>
+  </ol>
+  <div class="flag"><span class="tag">Lưu ý</span>Tài khoản miễn phí có giới hạn số lượt mỗi ngày — thực hành theo nhóm 2–3 người trên 01 tài khoản. Chỉ dùng cho hoạt động giáo dục nội bộ, không dùng cho mục đích thương mại.</div>
+  <p><b>Sản phẩm bắt buộc:</b> mỗi tổ 01 bài hát chủ đề.</p>
+
+  <h3>Canva và mã QR — Poster giáo viên, danh sách trẻ · 45 phút</h3>
+  <ol>
+    <li>Vào <code>canva.com</code>, đăng nhập bằng Gmail. Giáo viên có thể đăng ký gói Canva cho Giáo viên miễn phí nếu đủ điều kiện xác minh.</li>
+    <li>Ô tìm kiếm: gõ <em>Poster</em> hoặc <em>Áp phích</em> → chọn mẫu có sẵn.</li>
+    <li>Thay chữ: bấm đúp vào chữ để sửa. Thay ảnh: kéo ảnh từ máy vào.</li>
+    <li><b>Chèn mã QR:</b> thanh bên trái → <b>Ứng dụng</b> → tìm <b>QR Code</b> → dán liên kết biểu mẫu hoặc nhóm Zalo lớp → <b>Tạo mã</b> → kéo mã vào vị trí.</li>
+    <li><b>Tải xuống</b> → PNG để chiếu hoặc PDF in để in treo.</li>
+    <li>Làm tiếp bảng danh sách trẻ đầu năm theo cách tương tự.</li>
+  </ol>
+  <div class="flag"><span class="tag">Mẹo</span>Làm xong 01 poster mẫu của trường rồi chọn <b>Tạo bản sao</b>, các lớp chỉ việc sửa tên — nhanh hơn và đồng bộ hình thức toàn trường.</div>
+  <p><b>Sản phẩm bắt buộc:</b> mỗi lớp 01 poster thông tin giáo viên và 01 bảng danh sách trẻ có mã QR.</p>
+
+  <h3>AI + PowerPoint — Bài trình chiếu họp phụ huynh · 30 phút</h3>
+  <ol>
+    <li>Dùng Gemini tạo <b>dàn ý</b> trước — xem câu lệnh mẫu ở Phụ lục 1.</li>
+    <li>Đọc lại dàn ý, <b>cắt bớt cho gọn</b> — họp phụ huynh không quá 12 slide.</li>
+    <li>Dùng công cụ tạo slide bằng AI (Gamma, Canva – Thiết kế bằng AI, hoặc PowerPoint Designer) → dán dàn ý → tạo.</li>
+    <li><b>Xuất ra PowerPoint</b> để chỉnh sửa ngoại tuyến, phòng khi hôm họp mất mạng.</li>
+    <li>Chỉnh lại: cỡ chữ lớn, mỗi slide ≤ 5 dòng, thêm ảnh hoạt động thật của lớp.</li>
+  </ol>
+  <div class="flag"><span class="tag">Nhắc</span>Ảnh trẻ trong bài trình chiếu phải là ảnh đã có phiếu đồng ý của phụ huynh.</div>
+  <p><b>Sản phẩm bắt buộc:</b> mỗi tổ 01 bài trình chiếu họp phụ huynh đầu năm.</p>
+
+  <h3>Gem trên Gemini — Trợ lý soạn kế hoạch giáo dục · 30 phút</h3>
+  <p>Đây là công cụ có <b>giá trị lâu dài nhất</b>. Nên do đồng chí phụ trách CNTT tạo 01 trợ lý dùng chung cho toàn trường, giáo viên chỉ cần biết cách sử dụng.</p>
+  <ol>
+    <li>Vào <code>gemini.google.com</code> → khu vực quản lý <b>Gem</b> → <b>Tạo Gem mới</b>.</li>
+    <li>Đặt tên: <em>Trợ lý soạn kế hoạch giáo dục – Trường Mầm non ………</em></li>
+    <li>Phần <b>Hướng dẫn</b>: dán nội dung ở Phụ lục 2.</li>
+    <li><b>Tải tài liệu tham khảo lên:</b> Chương trình GDMN theo độ tuổi; khung kế hoạch tuần, ngày của trường; ngân hàng ý tưởng hoạt động tích hợp; bộ tiêu chí môi trường lớp.</li>
+    <li>Lưu lại, thử hỏi: <em>“Gợi ý 3 hoạt động tích hợp STEAM cho trẻ 4–5 tuổi, chủ đề Gia đình, dùng nguyên vật liệu tái chế”</em>.</li>
+    <li>Chia sẻ cho toàn thể giáo viên trong trường.</li>
+  </ol>
+  <div class="flag"><span class="tag">Quán triệt lại</span>Trợ lý chỉ <b>gợi ý</b>; giáo viên phải đối chiếu mục tiêu Chương trình, điều kiện lớp mình và <b>tự quyết định</b>. Không sao chép nguyên văn vào kế hoạch.</div>
+</section>
+
+<!-- ============ PHU LUC ============ -->
+<section id="phuluc">
+  <h2>Phụ lục</h2>
+
+  <h3>Phụ lục 1 · Bộ câu lệnh mẫu cho AI</h3>
+  <p class="sub">Chép nguyên văn, chỉ đổi phần đặt trong ngoặc vuông.</p>
+
+  <h4>Tạo truyện tranh cho trẻ</h4>
+  <pre>Hãy tạo một truyện tranh dành cho trẻ mẫu giáo [4-5] tuổi ở Việt Nam.
+Chủ đề: [Bé biết rửa tay đúng cách].
+Yêu cầu:
+- Độ dài 8-10 trang, mỗi trang 1-2 câu ngắn, dễ hiểu.
+- Nhân vật chính tên là [bé Na], có một người bạn là [chú Thỏ].
+- Ngôn ngữ tiếng Việt trong sáng, gần gũi trẻ nông thôn Việt Nam.
+- Phong cách tranh: màu nước tươi sáng, dễ thương, phù hợp trẻ mầm non.
+- Kết thúc có một thông điệp nhẹ nhàng, không giáo huấn nặng nề.</pre>
+
+  <h4>Gợi ý hoạt động tích hợp STEAM</h4>
+  <pre>Bạn là chuyên gia giáo dục mầm non Việt Nam.
+Hãy gợi ý 3 hoạt động cho trẻ [4-5] tuổi, chủ đề [Gia đình].
+Yêu cầu bắt buộc:
+- TÍCH HỢP yếu tố STEAM vào hoạt động chơi/học/ngoài trời sẵn có,
+  KHÔNG thiết kế thành tiết STEAM riêng.
+- Chỉ dùng nguyên vật liệu tái chế, sẵn có ở nông thôn Việt Nam,
+  không mua đồ dùng đắt tiền.
+- Mỗi hoạt động trình bày theo 5 bước: Hỏi - Tưởng tượng - Lập kế hoạch
+  - Thực hiện - Cải tiến.
+- Nêu rõ mục tiêu theo các lĩnh vực phát triển của Chương trình GDMN.
+- Gợi ý 3 câu hỏi mở giáo viên dùng để dẫn dắt trẻ.</pre>
+
+  <h4>Dàn ý bài trình chiếu họp phụ huynh đầu năm</h4>
+  <pre>Hãy lập dàn ý bài trình chiếu họp phụ huynh đầu năm học 2026-2027
+cho lớp mẫu giáo [5-6] tuổi, trường mầm non ở Nghệ An.
+Yêu cầu:
+- Tối đa 12 slide, mỗi slide tối đa 5 dòng, chữ ngắn gọn.
+- Có các phần: giới thiệu giáo viên; nền nếp sinh hoạt của lớp;
+  chương trình giáo dục năm học; công tác nuôi dưỡng và an toàn;
+  cách phối hợp giữa gia đình và nhà trường; những điều phụ huynh cần lưu ý.
+- Có một phần riêng giải thích vì sao KHÔNG dạy trước chương trình lớp 1,
+  viết theo cách thuyết phục, dễ hiểu với phụ huynh nông thôn.
+- Giọng văn thân thiện, tôn trọng phụ huynh.</pre>
+
+  <h4>Lời bài hát để đưa vào Suno</h4>
+  <pre>Hãy viết lời một bài hát thiếu nhi tiếng Việt cho trẻ mẫu giáo [4-5] tuổi.
+Chủ đề: [Bé yêu trường mầm non].
+Yêu cầu: 2 đoạn, mỗi đoạn 4 câu, câu ngắn 5-7 chữ, có vần,
+từ ngữ đơn giản trẻ hát được, nhịp vui tươi.</pre>
+
+  <h4>Viết tin tuyên truyền</h4>
+  <pre>Hãy viết một tin ngắn 180-220 chữ đăng nhóm Zalo lớp/fanpage trường
+về hoạt động [trẻ lớp 5A1 trồng rau ở vườn trường].
+Yêu cầu: có tiêu đề hấp dẫn; nêu rõ trẻ được phát triển kỹ năng gì;
+giọng văn ấm áp, gần gũi phụ huynh; không nêu tên đầy đủ của trẻ;
+kết thúc bằng một lời mời phụ huynh cùng đồng hành.</pre>
+
+  <h3>Phụ lục 2 · Nội dung hướng dẫn cho trợ lý AI (Gem)</h3>
+  <pre>VAI TRÒ
+Bạn là trợ lý chuyên môn của giáo viên Trường Mầm non ………, tỉnh Nghệ An,
+hỗ trợ xây dựng kế hoạch nuôi dưỡng, chăm sóc, giáo dục trẻ.
+
+NGUYÊN TẮC BẮT BUỘC
+1. Mọi gợi ý phải bám mục tiêu Chương trình Giáo dục mầm non theo đúng độ tuổi
+   và 5 lĩnh vực phát triển.
+2. STEAM luôn TÍCH HỢP vào hoạt động chơi, hoạt động học, hoạt động ngoài trời;
+   TUYỆT ĐỐI không đề xuất "tiết STEAM" riêng.
+3. Chỉ đề xuất nguyên vật liệu tái chế, rẻ tiền, sẵn có ở nông thôn Nghệ An.
+4. Với trẻ 5-6 tuổi: KHÔNG đề xuất bất kỳ nội dung nào thuộc chương trình lớp 1
+   (dạy viết chữ, làm toán cộng trừ, giao bài tập về nhà).
+5. Không tạo thêm biểu mẫu, sổ sách mới ngoài danh mục hồ sơ đã quy định.
+6. Luôn đặt trẻ ở vị trí trung tâm: trẻ được lựa chọn, được thử, được sai,
+   được làm lại.
+
+CÁCH TRẢ LỜI
+- Trình bày theo đúng khung kế hoạch của trường (xem tệp đính kèm).
+- Luôn kèm 3 câu hỏi mở để giáo viên dẫn dắt trẻ.
+- Luôn kết thúc bằng câu nhắc: "Cô hãy đối chiếu với điều kiện thực tế của lớp
+  và tự quyết định trước khi sử dụng."</pre>
+
+  <h3>Phụ lục 3 · Checklist chuẩn bị</h3>
+
+  <h4>Trước hội nghị</h4>
+  <ul class="check">
+    <li>Slide 06 điểm mới và 6 nhóm nội dung</li>
+    <li>In Danh mục hồ sơ theo Điều 21, mỗi tổ 01 bản</li>
+    <li>Bảng rà soát GIỮ / GỘP / BỎ khổ A3 × 04 và bút dạ</li>
+    <li class="hot"><b>01 truyện tranh AI và 01 bài hát AI làm sẵn</b> — phần tạo hứng thú mạnh nhất</li>
+    <li>Ảnh mẫu môi trường nhóm lớp</li>
+    <li>In kế hoạch chi tiết 5 buổi phát cho các tổ trưởng</li>
+    <li>Mẫu biên bản thống nhất để thư ký điền và lấy chữ ký</li>
+    <li>Thử máy chiếu và loa — bài hát cần nghe rõ</li>
+  </ul>
+
+  <h4>Trước đợt tập huấn</h4>
+  <ul class="check">
+    <li class="hot"><b>Liên hệ Sở GD&amp;ĐT xin quy định về hồ sơ điện tử và chuẩn dữ liệu</b></li>
+    <li class="hot"><b>Rà soát tài khoản Gmail của 100% giáo viên</b> — làm sớm 3 ngày, đây là chỗ hay tắc nhất</li>
+    <li>Lập danh sách ghép cặp cốt cán – giáo viên</li>
+    <li>Chuẩn bị lớp điểm về môi trường</li>
+    <li>Tạo cây thư mục Drive và phân quyền</li>
+    <li>Tạo trợ lý AI dùng chung trên Gemini</li>
+    <li>Soạn tài liệu 1 trang cho từng công cụ và quay video hướng dẫn</li>
+    <li>Kiểm tra wifi và chuẩn bị phương án phát 4G dự phòng</li>
+    <li>Nhắc giáo viên mang laptop, điện thoại, sạc</li>
+  </ul>
+
+  <h4>Sau mỗi buổi</h4>
+  <ul class="check">
+    <li>Thu và nghiệm thu sản phẩm ngay trong buổi</li>
+    <li>Đưa video hướng dẫn và sản phẩm mẫu lên Drive chung</li>
+    <li>Ghi nhận giáo viên chưa hoàn thành để phân công kèm riêng</li>
+    <li>Nhắc việc buổi sau trên nhóm Zalo</li>
+  </ul>
+</section>
+
+<!-- ============ CAN CU ============ -->
+<section id="canhcu">
+  <h2>Căn cứ pháp lý và nguồn tra cứu</h2>
+  <p class="sub">Cập nhật đến ngày 14/8/2026. Trước khi ban hành chính thức, đối chiếu thêm với hướng dẫn của Sở GD&amp;ĐT Nghệ An và chỉ đạo của UBND xã, phường.</p>
+  <div class="tbl">
+    <table>
+      <thead><tr><th>Văn bản</th><th>Nội dung liên quan</th><th>Tra cứu</th></tr></thead>
+      <tbody>
+        <tr><td><b>CV 5385/BGDĐT-GDMN</b><br>12/8/2026</td><td>Hướng dẫn nhiệm vụ GDMN năm học 2026–2027 · 06 nhóm nhiệm vụ · cắt giảm hồ sơ · STEAM tích hợp · quản trị dựa trên dữ liệu</td><td><a href="https://xaydungchinhsach.chinhphu.vn/huong-dan-thuc-hien-nhiem-vu-giao-duc-mam-non-nam-hoc-2026-2027-119260813174542883.htm">chinhphu.vn</a></td></tr>
+        <tr><td><b>QĐ 388/QĐ-BGDĐT</b> · 12/02/2026<br><b>KH 262/KH-BGDĐT</b> · 12/02/2026<br><b>CV 2595/BGDĐT-GDMN</b> · 14/5/2026</td><td>Chương trình GDMN thí điểm từ năm học 2026–2027 tại 510 cơ sở thuộc 34 tỉnh, thành phố</td><td><a href="https://moet.gov.vn/van-ban/van-ban-chi-dao-dieu-hanh/ve-viec-huong-dan-trien-khai-thi-diem-chuong-trinh-giao-duc-mam-non-moi-nam-hoc-2026-2027.html">moet.gov.vn</a></td></tr>
+        <tr><td><b>CV 1695/UBND-VX</b><br>13/02/2026 · UBND tỉnh Nghệ An</td><td>Triển khai thí điểm Chương trình GDMN mới trên địa bàn tỉnh</td><td><a href="https://nghean.gov.vn/thong-tin-chi-dao-dieu-hanh/trien-khai-thi-diem-chuong-trinh-giao-duc-mam-non-moi-nam-2026-1000409">nghean.gov.vn</a></td></tr>
+        <tr><td><b>TT 52/2020/TT-BGDĐT</b><br>Điều lệ trường mầm non</td><td>Điều 21 · danh mục hồ sơ nhà trường, tổ chuyên môn, giáo viên · hồ sơ điện tử do Sở GD&amp;ĐT quy định</td><td><a href="https://thuviennhadat.vn/phap-luat-doi-song/ho-so-quan-ly-hoat-dong-nuoi-duong-cham-soc-giao-duc-mam-non-duoc-quy-dinh-ra-sao-553364.html">thuviennhadat.vn</a></td></tr>
+        <tr><td><b>TT 51/2026/TT-BGDĐT</b><br>30/6/2026 · hiệu lực 15/8/2026</td><td>Sửa đổi Điều lệ · trường mầm non do UBND cấp xã quản lý, Phòng Văn hoá – Xã hội tham mưu</td><td><a href="https://luatvietnam.vn/tin-van-ban-moi/tu-15-8-2026-truong-mam-non-do-ubnd-cap-xa-quan-ly-186-111336-article.html">luatvietnam.vn</a></td></tr>
+        <tr><td><b>TT 28/2026/TT-BGDĐT</b><br>09/4/2026</td><td>Chuẩn nghề nghiệp giáo viên mầm non · tiêu chuẩn ứng dụng công nghệ, xây dựng KHGD, đánh giá trẻ, phối hợp với cha mẹ trẻ</td><td><a href="https://baochinhphu.vn/quy-dinh-moi-ve-chuan-nghe-nghiep-giao-vien-mam-non-102260413162231779.htm">baochinhphu.vn</a></td></tr>
+        <tr><td><b>Nghị quyết 71-NQ/TW</b><br>22/8/2025</td><td>Đột phá phát triển giáo dục và đào tạo — định hướng nền cho nhiệm vụ năm học</td><td>Cơ sở dữ liệu quốc gia</td></tr>
+        <tr><td><b>Cổng giáo dục số Nghệ An</b></td><td>Nền tảng dùng chung của ngành · đồng bộ dữ liệu từ trường lên Sở · chữ ký số và xác thực điện tử</td><td><a href="https://giaoducso.nghean.gov.vn/">giaoducso.nghean.gov.vn</a></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<footer>
+  <p><b>Sổ tay triển khai năm học 2026 – 2027</b> · Trường Mầm non ………, tỉnh Nghệ An<br>
+  Tài liệu hỗ trợ đồng nghiệp. Nội dung căn cứ văn bản cập nhật đến ngày 14/8/2026. Các chỗ (………) điền theo thực tế đơn vị.<br>
+  <a href="PHUONG-AN-KE-HOACH-KICH-BAN-2026-2027.docx" download>Tải bản Word đầy đủ (40 trang)</a></p>
+</footer>
+
+</div>
+</body>
+</html>
