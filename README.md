@@ -18,7 +18,7 @@ xây dựng kế hoạch giáo dục từng độ tuổi, các chuyên đề và
 ## Tệp trong kho
 
 - `index.html` — toàn bộ nội dung, đọc được trên điện thoại, in được
-- `PHUONG-AN-KE-HOACH-KICH-BAN-2026-2027.docx` — bản Word đầy đủ để chỉnh sửa và ký ban hành
+- `PHUONG-AN-KE-HOACH-KICH-BAN-2026-2027.docx` — bản Word đầy đủ (41 trang, Times New Roman) để chỉnh sửa và ký ban hành
 - `fonts/` — font UTM Avo (4 kiểu) dùng cho trang web
 
 ## Căn cứ pháp lý
