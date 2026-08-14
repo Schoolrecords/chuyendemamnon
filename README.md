@@ -1,6 +1,6 @@
 # Sổ tay triển khai năm học 2026 – 2027
 
-Phương án, kế hoạch và kịch bản điều hành hội nghị chuyên môn mầm non — nội dung mục 3 và mục 4:
+Trường Mầm non Thị Trấn Yên Thành, tỉnh Nghệ An. Phương án, kế hoạch và kịch bản điều hành hội nghị chuyên môn — nội dung mục 3 và mục 4:
 xây dựng kế hoạch giáo dục từng độ tuổi, các chuyên đề và công tác tập huấn.
 
 **Trang web:** https://schoolrecords.github.io/chuyendemamnon
